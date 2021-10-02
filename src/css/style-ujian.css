@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.header-materi {
+  position: fixed;
+  background-color: rgb(210, 205, 255);
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+  float: right;
+}
+.header-video {
+  position: fixed;
+  background: grey;
+  padding: 20px;
+  width: 100%;
+  height: 30px;
+}
+.left-area span {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+.right-area {
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+.sidebar {
+  background: #1d3a67;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+  float: left;
+}
+.sidebar2 {
+  padding-top: 2rem;
+}
+.sidebar .profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+.sidebar2 h3,
+h4 {
+  padding: 5px;
+  color: white;
+}
+.sidebar a {
+  color: white;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.sidebar a:hover {
+  background: #6084bb;
+}
+.sidebar i {
+  padding-right: 10px;
+}
+.log-out {
+  padding: 10px;
+  background: #1d3a67;
+  text-decoration: none;
+  float: right;
+  margin-top: -35px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.log-out:hover {
+  background: #6084bb;
+}
+label #sidebar-btn {
+  z-index: 1;
+  color: rgb(29, 29, 58);
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+label #sidebar-btn:hover {
+  color: white;
+}
+#check:checked ~ .sidebar {
+  left: -190px;
+}
+#check:checked ~ .sidebar a span {
+  display: none;
+}
+#check:checked ~ .sidebar a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+.content {
+  padding-bottom: 35px;
+  padding-top: 100px;
+  margin-left: 250px;
+  transition: 0.5s;
+  background-color: rgb(210, 205, 255);
+}
+.text-bindo {
+  width: 100%;
+  height: 140px;
+  background-color: white;
+  border-radius: 20px;
+}
+.text-bindo h1 {
+  color: black;
+  font-size: 28px;
+  padding-left: 38px;
+  padding-top: 58px;
+}
+.text-decoration {
+  text-decoration: none;
+}
+.active-2 {
+  background-color: #6084bb;
+}
+#check:checked ~ .content {
+  margin-left: 60px;
+}
+#check {
+  display: none;
+}
+.boxx-colom {
+  padding: 40px;
+}
+.box-colom {
+  padding: 30px;
+  width: 960px;
+  height: 280px;
+  background-color: white;
+  border-radius: 30px;
+}
+.ini-colom1 {
+  padding: 20px;
+}
+.ini-colom2 {
+  padding: 20px;
+}
+.colom1 {
+  padding: 30px;
+  width: 570px;
+  height: 35px;
+  background-color: rgb(58, 53, 68);
+  border-radius: 20px;
+}
+.colom2 {
+  padding-top: 30px;
+  padding: 30px;
+  width: 570px;
+  height: 50px;
+  background-color: rgb(60, 50, 73);
+  border-radius: 20px;
+}
+.colom1 h1 {
+  padding-top: 5px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+.colom2 h1 {
+  padding-top: 12px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+.tanggal {
+  font-size: 19px;
+  float: left;
+  padding-left: 2rem;
+}
+.waktu {
+  font-size: 19px;
+  float: left;
+  padding-left: 4rem;
+}
+.jumlahsoal {
+  font-size: 19px;
+  float: left;
+  padding-left: 4rem;
+}
+.status {
+  font-size: 19px;
+  float: left;
+  padding-left: 3rem;
+}
+.tanggal1 {
+  font-size: 18px;
+  float: left;
+  padding-left: 1rem;
+}
+.waktu1 {
+  font-size: 19px;
+  float: left;
+  padding-left: 3rem;
+}
+.jumlahsoal1 {
+  font-size: 19px;
+  float: left;
+  padding-left: 2rem;
+}
+.status1 {
+  font-size: 19px;
+  padding-left: 27rem;
+}
+.status1 a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+.kerjakan {
+  color: black;
+  background-color: rgb(180, 181, 255);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 8px #2c2c54;
+  cursor: pointer;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 50px;
+  transition: 0.25px;
+  width: 140px;
+  font-size: 18px;
+}
+.kerjakan:hover {
+  color: white;
+  background-color: rgb(57, 57, 102);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 8px #2c2c54;
+  cursor: pointer;
+  font-family: "Raleway SemiBold", sans-serif;
+  height: 50px;
+  transition: 0.25px;
+  width: 140px;
+  font-size: 18px;
+}
+.gif-ujian {
+  float: right;
+  width: 270px;
+  height: 310px;
+  padding-right: 60px;
+  padding-top: 70px;
+}

@@ -1,0 +1,118 @@
+*{
+      padding:0;
+      margin:0;
+}
+.signup{
+      padding: 10rem 11rem 8rem 8rem;
+      background-color: rgb(166, 191, 255);
+}
+.signup img{
+      width: 600px;
+      height: 450px;
+}
+#card{
+      background: #d1ccff;
+      border-radius: 8px;
+      box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+      height: 460px;
+      width: 355px;
+      float: right;
+}
+#card-content {
+      padding: 12px 44px;
+}
+#card-title {
+      font-family: "Raleway Thin", sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+}
+.underline-title {
+      background: -webkit-linear-gradient(right, #150b38, #9e91eb);
+      height: 2px;
+      margin: 1rem auto 0 auto;
+      width: 89px;
+}
+a {
+    text-decoration: none;
+}
+label{
+    font-family: "Raleway",sans-serif;
+    font-size: 11pt;
+}
+#forgot-password{
+    color: #0c0f50;
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+}
+label h2{
+      padding-bottom: 13px;
+      font-size: 16px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-login{
+    padding-left: 6rem;
+    color: white;
+}
+.submit{
+    background: -webkit-linear-gradient(right,#2c2c54,#2c2c54);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #2c2c54;
+    cursor: pointer;
+    font-family: "Raleway SemiBold",sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}
+.submit a{
+    color: white;
+    font-size: 16px;
+}
+.submit:hover{
+    background: -webkit-linear-gradient(right,#96587e,#9d6586);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #4e0c4b;
+    cursor: pointer;
+    font-family: "Raleway SemiBold",sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 62px;
+    padding-top: 40px;
+}
+.form h2{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-border{
+    height: 1px;
+    width: 100%;
+    background: -webkit-linear-gradient(right,#d1ccc0,#d1ccc0);
+}
+.form-content{
+    background-color: white;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 15px;
+    align-items: center;
+}
+.labels{
+    padding: 15px;
+}
+input{
+    padding-left: 25px;
+}

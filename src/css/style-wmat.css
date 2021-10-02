@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    height: 70px;
+}
+header h1{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 35px;
+    padding-left: 30px;
+}
+header h1 a{
+    transition: .4s;
+    color: white
+}
+header h1 a:hover{
+    color:rgb(145, 32, 71);
+}
+header ul{
+    float: right;
+}
+header ul li{
+    padding: 26px;
+    display: inline-block;
+    font-size: 18px;
+}
+header ul li a{
+    transition: 0.3s;
+    color: white
+}
+header ul li a:hover{
+    color: rgb(145, 32, 71);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#banner img{
+    padding: 15px;
+    width: 210px;
+}
+#banner{
+    background-image: url("../img/wave-wmat.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 260px;
+}
+.banner-left img{
+    width: 450px;
+    float: left;
+    padding-left: 2rem;
+}
+.banner-left2 img{
+    width: 500px;
+    float: left;
+    padding-left: 3rem;
+}
+.banner-right img{
+    width: 400px;
+    float: right;
+    padding-top: 2rem;
+}
+.banner-left{
+   padding-bottom: 8rem;
+   padding-top: 1rem;
+}
+.banner-left2{
+    padding-bottom: 4rem;
+}
+.banner-right{
+    padding-bottom: 4rem;
+}
+.text-banner-smp{
+    float: right;
+    padding-top: 5rem;
+    padding-right: 2rem;
+    font-size: 16px;
+}
+.text-banner-smp-right{
+    float: left;
+    padding-top: 9rem;
+    padding-left: 1rem;
+    font-size: 12px;
+    font-style: oblique;
+}
+.text-banner{
+    float: right;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    font-size: 18px;
+}
+.box-h3{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(53, 12, 53);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(44, 33, 58, 0.8);
+}
+.box-h3 h3{
+    padding: 25px;
+    color: white;
+}
+.ini-box-materi{
+    padding-top: 5rem;
+    padding-right: 1rem;
+}
+.box-materi{
+    width: 550px;
+    height: 220px;
+    background-color: rgb(80, 70, 131);
+    float: right;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(26, 19, 39, 0.9);
+    color: white;
+}
+.box-materi:hover{
+    background-color: rgb(151, 135, 232);
+    transform: scale(1.1);
+    transition: 1s;
+    color: black;
+}
+#SMP{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(23, 26, 68);
+}
+#SMP img {
+    float: right;
+    padding-right: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 400px;
+    height: 400px;
+}
+#SMA{
+    padding-top: 1rem;
+
+    background-color: white;
+}
+#SMA img {
+    float: left;
+    padding-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 450px;
+    height: 380px;
+}
+.text-smp{
+    padding-top: 11rem;
+    color: white;
+    font-size: 22px;
+}
+.text-sma{
+    padding-top: 11rem;
+    padding-right: 1rem;
+    color: black;
+    font-size: 22px;
+    float: right;
+}
+.button-materi2{
+    float: right;
+    padding-right: 19rem;
+}
+.btn-materi{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 1px 8px #8484da;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 52px;
+    transition: 0.25px;
+    width: 260px;
+}
+.btn-materi a{
+    color: black;
+    font-size: 17px;
+}
+.btn-materi:hover{
+    background-color: rgb(159, 157, 255);
+}
+.btn-materi2{
+    background-color: rgb(19, 16, 61);
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 1px 8px #8484da;
+    cursor: pointer;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 52px;
+    transition: 0.25px;
+    width: 260px;
+}
+.btn-materi2 a{
+    color: white;
+    font-size: 17px;
+}
+.btn-materi2:hover{
+    background-color: rgb(80, 79, 186);
+}
+.card3{
+    padding-top: 4rem;
+    padding-right: 7rem;
+    background-color: rgb(208, 188, 253);
+    height: 700px;
+}
+.card3 table {
+  float: right;
+}
+.card3 td {
+  text-align: center;
+  padding: 20px;
+}
+.box-kls7 {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls8 {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls9 {
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 330px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
+  padding-bottom: 4rem;
+}
+.box-kls7 img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.box-kls8 img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.box-kls9 img {
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.box-kls7:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.box-kls8:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.box-kls9:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.button-kls7:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls7 {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls8:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls8{
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls9:hover {
+  background-color: rgb(193, 163, 235);
+  color: black;
+}
+.button-kls9 {
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(192, 112, 134);
+  font-size: 16px;
+  color: white;
+}
+.button-kls7 a{
+    color: white;
+}
+.button-kls8 a{
+    color: white;
+}
+.button-kls9 a{
+    color: white;
+}
+.text-kls{
+    padding-top: 2rem;
+    color: white;
+    font-size: 25px;
+}
+.text-kls2{
+    padding-top: 1rem;
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width: 768px){
+    .mobile-menu{
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
+    .login1{
+        width: 40%;
+        left: 35%;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    #form{
+        width: 87%;
+    }
+}

@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+}
+#absensiii{
+    padding-left: 4rem;
+    padding-top: 4rem;
+}
+#absen {
+    background-color: #b2b7ff;
+    border-radius: 8%;
+    box-shadow: 1px 2px 8px #B4CDF1;
+    margin: 0rem auto 2.1rem auto;
+    width: 700px;
+    height: 600px;
+    float: right;
+    border-radius: 8%;
+}
+.background-absensi{
+    background-image: url("../img/ini-waves.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 240px;
+}
+#absensi{
+    font-family: "Raleway Thin",sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 10rem;
+}
+#card-content {
+    padding: 5px 40px;
+}
+
+#card-title {
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.underline-title {
+    background: #071931;
+    margin: 2rem auto 0 auto;
+    height: 2px;
+    width: 89px;
+}
+.absensi-form{
+    padding-right: 50px;
+}
+.form {
+    align-items: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content{
+    background: white;
+    border: none;
+    outline: none;
+}
+input{
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.submit {
+    background: -webkit-radial-gradient(right, #B4CDF1, rgb(253, 254, 255));
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #B4CDF1;
+    cursor: pointer;
+    color: black;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 150px;
+    font-family: "Raleway SemiBold",sans-serif;
+}
+.submit:hover {
+    background: -webkit-radial-gradient(right, #fdc6ff, rgb(199, 151, 185));
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #c6b4f1;
+    cursor: pointer;
+    color: black;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 0.25s;
+    width: 150px;
+}
+.button-submit{
+    padding-left: 16rem;
+}
+
+#foto{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: whitesmoke;
+    border-radius: 8%;
+    box-shadow: 1px 2px 8px black;
+    background-color: #cbd3ff;
+    border-radius: 8%;
+}
+
+#foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#foto p{
+    font-family: "Raleway SemiBold",sans-serif;
+    
+}
+
+label{
+    padding: 10px;
+}
+select{
+    border-radius: 10px;
+}
