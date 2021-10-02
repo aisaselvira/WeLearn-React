@@ -42,7 +42,7 @@ function App() {
             <form method="post" className="form">
               <label>
                 {" "}
-                <h2>Username</h2>
+                <h2 className="form-login-username">Username</h2>
                 <input
                   id="user-email"
                   className="form-content"
@@ -55,7 +55,7 @@ function App() {
               </label>
 
               <label>
-                <h2>Password</h2>
+                <h2 className="form-login-username">Password</h2>
                 <input
                   id="user-password"
                   className="form-content"
