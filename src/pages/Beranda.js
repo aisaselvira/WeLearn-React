@@ -1,13 +1,15 @@
 import React from "react";
-// import { useParams } from "react-router-dom";
-// import "../css/style.css";
+import "../css/style-beranda.css";
+// import image
+import weLearn from '../img/we-learn.jpeg'
+import gbb from "../img/gbb.gif"
+
 function Beranda() {
-//   let { id } = useParams();
   return (
     <div className="Beranda">
       <header>
         <div className="container">
-          <img src="img/we-learn.jpeg" alt="Welearn"></img>
+          <img src={weLearn} alt="Welearn"/>
           <ul>
             <li>
               <a href="login.html">
@@ -95,7 +97,7 @@ function Beranda() {
           <div className="container">
             <h1 className="ws">Apa sih WSAT itu ?</h1>
             <br />
-            <img src="img/gbb.gif" alt="Welearn"/>
+            <img src={gbb} alt="Welearn"/>
             <div className="text-wsat">
               <h3>WSAT kepanjangan dari We - Scholastic Assesment Test</h3>
               <h3>
