@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "../css/style-wemateri.css";
 
 function Wemateri() {
@@ -37,9 +38,12 @@ function Wemateri() {
                         <h1>Materi SMP / MTS</h1><br/>
                         <p><strong>Dapatkan akses menuju materi pelajaran SMP / MTS <br/>kelas 7, 8 dan 9 yang lengkap</strong></p>
                     </div>
+
+                    <Link to="/home/wemateri/materismp">
                     <div className="button-materi">
                         <button type="submit" className="btn-materi"><a href="materi-smp.html"><strong>Baca Materi Sekarang</strong> </a></button>
                     </div>
+                    </Link>
         </div>    
     </section>
 
@@ -50,9 +54,12 @@ function Wemateri() {
                         <h1>Materi SMA / SMK</h1><br/>
                         <p><strong>Dapatkan akses menuju materi pelajaran SMA / SMK <br/>kelas 10, 11 dan 12 yang lengkap</strong></p>
                     </div>
+
+                    <Link to="/home/wemateri/materisma">
                     <div className="button-materi2">
                         <button type="submit" className="btn-materi2"><a href="materi-sma.html"><strong>Baca Materi Sekarang</strong> </a></button>
                     </div>
+                    </Link>
         </div>    
     </section>
 

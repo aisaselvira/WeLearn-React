@@ -40,16 +40,21 @@ function Beranda() {
               </a>
             </li>
             </Link>
+            <Link to="/home/jadwal">
             <li>
               <a href="jadwal-ujian.html">
                 <strong>Jadwal</strong>
               </a>
             </li>
+            </Link>
+            <Link to="/home/absensi">
             <li>
               <a href="absensi.html">
                 <strong>Absensi</strong>
               </a>
             </li>
+            </Link>
+
             <li className="active">
               <a href="beranda.html">
                 <strong>Home</strong>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "../css/style-wsat.css";
 
 function WSAT() {
@@ -10,18 +11,22 @@ function WSAT() {
           <img src="img/logo-wsat1.jpeg" />
           <ul>
             <li>
+              <Link to="/home/wsat/welesson">
               <div id="button-wsatt">
                 <button type="submit" id="wsatt">
-                  <a href="WLesson.html">WeLesson</a>
+                  <a href="">WeLesson</a>
                 </button>
               </div>
+              </Link>
             </li>
             <li>
+              <Link to="/home/wsat/weexam">
               <div id="button-wsatt">
                 <button type="submit" id="wsatt">
                   <a href="WeExam.html">WeExam</a>
                 </button>
               </div>
+              </Link>
             </li>
           </ul>
         </nav>
