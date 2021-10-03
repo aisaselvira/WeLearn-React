@@ -1,31 +1,45 @@
-import React from "react";
+import React from 'react'
+import {Link} from 'react-router-dom'
 import "../css/style-beranda.css";
+
 // import image
 import weLearn from '../img/we-learn.jpeg'
 import gbb from "../img/gbb.gif"
+import vektor2 from "../img/vektor2.gif"
+import gif12 from "../img/giff12.gif"
+import gb5 from "../img/gb5.jpg"
+import gb4 from "../img/gb4.jpg"
+import ujian from "../img/ujian.png"
+import healing from "../img/healing.png"
+import instagram from "../img/instagram.png"
+import facebook from "../img/facebook.png"
+import twitter from "../img/twitter.png"
+import linkedin from "../img/linkedin.png"
+import welearnnn from "../img/welearnnn.jpeg"
+
 
 function Beranda() {
   return (
+    
     <div className="Beranda">
       <header>
         <div className="container">
           <img src={weLearn} alt="Welearn"/>
           <ul>
-            <li>
-              <a href="login.html">
-                <strong>Login</strong>
-              </a>
-            </li>
+            <Link to="/home/wemateri">
             <li>
               <a href="WMateri.html">
                 <strong>WeMateri</strong>
               </a>
             </li>
+            </Link>
+            <Link to="/home/wsat">
             <li>
               <a href="WSAT.html">
                 <strong>WSAT</strong>
               </a>
             </li>
+            </Link>
             <li>
               <a href="jadwal-ujian.html">
                 <strong>Jadwal</strong>
@@ -56,7 +70,7 @@ function Beranda() {
             </div>
           </div>
 
-          <img src="img/vektor2.gif" alt="Welearn2"></img>
+          <img src={vektor2} alt="Welearn"/>
           <div className="berandaaa">
             <h1 className="h1-beranda">
               Learn Anytime, <span>Anywhere</span>
@@ -72,7 +86,7 @@ function Beranda() {
           <div className="wsat">
             <div id="ini-wsat">
               <div className="container">
-                <img src="img/giff12.gif" alt="Welearn"></img>
+                <img src={gif12} alt="Welearn"/>
                 <div className="text-wsat2">
                   <h2>
                     Yuk kenali fitur - fitur menarik apa saja<br></br> yang ada
@@ -143,7 +157,7 @@ function Beranda() {
                 <tr>
                   <td>
                     <div className="box-kls7">
-                      <img className="kls7" src="img/gb5.jpg" alt="Welearn"></img>
+                      <img className="kls7" src={gb5} alt="Welearn"/>
                       <h1 className="text-kls">WLesson</h1>
                       <h2 className="text-kls2">
                         Di fitur ini kami menyediakan Test Potensi Skolastik (
@@ -160,7 +174,7 @@ function Beranda() {
 
                   <td>
                     <div className="box-kls8">
-                      <img className="kls8" src="img/gb4.jpg" alt="Welearn"></img>
+                      <img className="kls8" src={gb4} alt="Welearn"/>
                       <h1 className="text-kls">WExam</h1>
                       <h2 className="text-kls2">
                         Di fitur ini kami menyediakan Try Out, Test Keterampilan
@@ -187,7 +201,7 @@ function Beranda() {
             lengkap yang ada <br></br>di fitur kami !
           </h1>
           <div className="box-beranda1">
-            <img className="ujian" src="img/ujian.png" alt="Welearn"></img>
+            <img className="ujian" src={ujian} alt="Welearn"/>
             <h3 className="teks-w-ujian">W-Ujian</h3>
           </div>
           <div className="w-ujian">
@@ -207,7 +221,7 @@ function Beranda() {
             <br></br>Selamat Menikmati !
           </h1>
           <div className="box-beranda2">
-            <img className="fresh" src="img/healing.png" alt="Welearn"></img>
+            <img className="fresh" src={healing} alt="Welearn"/>
             <h3 className="teks-w-fresh">W-Fresh</h3>
           </div>
           <div className="w-fresh">
@@ -236,7 +250,7 @@ function Beranda() {
       <div className="card5">
         <div className="ini-card5">
           <h1>Contact</h1>
-          <img className="contact" src="img/welearnnn.jpeg" alt="Welearn"></img>
+          <img className="contact" src={welearnnn} alt="Welearn"/>
           <h3>
             WeLearn adalah sebuah website pendidikan <br></br>yang dibuat
             sebagai solusi dalam memudahkan <br />
@@ -262,16 +276,16 @@ function Beranda() {
 
       <footer>
         <a href="https://www.instagram.com/we_learn_smk2/">
-          <img src="img/instagram.png" alt="Instagram" />
+          <img src={instagram} alt="Welearn"/>
         </a>
         <a href="https://www.facebook.com">
-          <img src="img/facebook.png" alt="Facebook" />
+          <img src={facebook} alt="Welearn"/>
         </a>
         <a href="https://twitter.com/inipiiraaaaaa?s=08">
-          <img src="img/twitter.png" alt="Twitter" />
+          <img src={twitter} alt="Welearn"/>
         </a>
         <a href="https://www.linkedin.com">
-          <img src="img/linkedin.png" alt="LinkedIn" />
+          <img src={linkedin} alt="Welearn"/>
         </a>
 
         <div className="container">

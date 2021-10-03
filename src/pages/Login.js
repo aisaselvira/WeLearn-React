@@ -14,7 +14,9 @@ function Login() {
       <div className="box-login">
         <div className="box">
           <form method="post" className="form">
-            <label>              <h2>Username</h2>
+            <label>              
+            {" "}
+              <h2 className="form-signup-email">Email</h2>
               <input
                 id="user-email"
                 className="form-content"
@@ -27,7 +29,7 @@ function Login() {
             </label>
 
             <label>
-              <h2>Password</h2>
+              <h2 className="form-signup-password">Password</h2>
               <input
                 id="user-password"
                 className="form-content"

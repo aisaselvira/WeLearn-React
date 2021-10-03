@@ -1,12 +1,13 @@
 *{
       padding:0;
       margin:0;
+      font-family: 'Quicksand', sans-serif;
 }
-.signup{
+.signuppage{
       padding: 10rem 11rem 8rem 8rem;
       background-color: rgb(166, 191, 255);
 }
-.signup img{
+.signuppage img{
       width: 600px;
       height: 450px;
 }
@@ -22,7 +23,6 @@
       padding: 12px 44px;
 }
 #card-title {
-      font-family: "Raleway Thin", sans-serif;
       letter-spacing: 4px;
       padding-bottom: 23px;
       padding-top: 13px;
@@ -38,19 +38,16 @@ a {
     text-decoration: none;
 }
 label{
-    font-family: "Raleway",sans-serif;
     font-size: 11pt;
 }
 #forgot-password{
     color: #0c0f50;
-    font-family: "Raleway",sans-serif;
     font-size: 14px;
     padding-top: 20px;
 }
 label h2{
       padding-bottom: 13px;
       font-size: 16px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .button-login{
     padding-left: 6rem;
@@ -62,7 +59,6 @@ label h2{
     border: none;
     box-shadow: 0px 1px 8px #2c2c54;
     cursor: pointer;
-    font-family: "Raleway SemiBold",sans-serif;
     height: 42.3px;
     margin: 0 auto;
     margin-top: 50px;
@@ -94,7 +90,6 @@ label h2{
 }
 .form h2{
     font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .form-border{
     height: 1px;

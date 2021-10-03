@@ -8,9 +8,11 @@ import {
 // pages
 import Login from "./pages/Login";
 import Beranda from "./pages/Beranda";
+import Signup from "./pages/Signup";
 
 // pages detail
-// import DetailContact from "./detail-pages/DetailContact";
+import Wemateri from "./detail-pages/Wemateri";
+import WSAT from "./detail-pages/WSAT";
 
 // pages css
 import "./css/style-login.css";
@@ -19,14 +21,26 @@ function App() {
   const handleclicklogin = () => {
     console.log("tes");
   };
+  const handleclicksignup = () => {
+    console.log("tes2");
+  };
   return (
     <Router>
       <Switch>
         <Route exact path="/login">
           <Login />
         </Route>
-        <Route path="/Home">
+        <Route exact path="/home">
           <Beranda />
+        </Route>
+        <Route path="/signup">
+          <Signup />
+        </Route>
+        <Route path="/home/wemateri">
+          <Wemateri />
+        </Route>
+        <Route path="/home/wsat">
+          <WSAT />
         </Route>
       </Switch>
 
@@ -70,16 +84,19 @@ function App() {
               <Link to="/home">
                 <div id="button-login">
                   <button type="submit" id="submit" onClick={handleclicklogin}>
-                    login
+                    <a href="">Login</a>
                   </button>
                 </div>
               </Link>
 
+              <Link to="/signup">
               <div id="button-login2">
-                <button type="submit" id="submit2">
+                <button type="submit" id="submit2" onClick={handleclicksignup}>
                   <a href="signup.html">Belum Punya Akun ?</a>
                 </button>
               </div>
+              </Link>
+
             </form>
           </div>
         </div>

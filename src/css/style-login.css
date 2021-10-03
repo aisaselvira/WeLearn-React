@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
 }
 body{
     padding:0;
@@ -24,12 +25,10 @@ body{
     height: 200px;
 }
 label{
-    font-family: "Raleway",sans-serif;
     font-size: 11pt;
 }
 #forgot-password{
     color: #0c0f50;
-    font-family: "Raleway",sans-serif;
     font-size: 14px;
     padding-top: 20px;
 }
@@ -41,8 +40,7 @@ label{
     box-shadow: 1px 2px 8px rgba(0,0,0,0.65);
 }
 .box-login{
-    display: flex;
-    justify-content: center;
+    padding-left: 378px;
 }
 #card-title{
     font-family: "Raleway Thin",sans-serif;
@@ -58,7 +56,6 @@ label{
 }
 #signup{
     color: rgb(8, 3, 31);
-    font-family: "Raleway",sans-serif;
     font-size: 14px;
     padding-top: 20px;
     padding-left: 11rem;
@@ -73,7 +70,6 @@ label{
     border: none;
     box-shadow: 0px 1px 8px #2c2c54;
     cursor: pointer;
-    font-family: "Raleway SemiBold",sans-serif;
     height: 42.3px;
     margin: 0 auto;
     margin-top: 50px;
@@ -90,7 +86,6 @@ label{
     border: none;
     box-shadow: 0px 1px 8px #4e0c4b;
     cursor: pointer;
-    font-family: "Raleway SemiBold",sans-serif;
     height: 42.3px;
     margin: 0 auto;
     margin-top: 50px;
@@ -107,7 +102,6 @@ label{
     border: none;
     box-shadow: 0px 1px 8px #2c2c54;
     cursor: pointer;
-    font-family: "Raleway SemiBold",sans-serif;
     height: 42.3px;
     margin: 0 auto;
     margin-top: 50px;
@@ -124,7 +118,6 @@ label{
     border: none;
     box-shadow: 0px 1px 8px #4e0c4b;
     cursor: pointer;
-    font-family: "Raleway SemiBold",sans-serif;
     height: 42.3px;
     margin: 0 auto;
     margin-top: 50px;
@@ -139,7 +132,6 @@ label{
 }
 .form h2{
     font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .form-border{
     height: 1px;
@@ -153,10 +145,6 @@ label{
     width: 440px;
     height: 35px;
     border-radius: 15px;
-}
-
-.form-login-username{
-    padding: 0px !important;
 }
 label{
     padding: 10px;
