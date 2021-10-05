@@ -5,13 +5,13 @@
 }
 .signuppage{
       padding: 10rem 11rem 8rem 8rem;
-      background-color: rgb(166, 191, 255);
+      background-color: rgb(188, 200, 230);
 }
 .signuppage img{
       width: 600px;
       height: 450px;
 }
-#card{
+#card-signup{
       background: #d1ccff;
       border-radius: 8px;
       box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
@@ -19,16 +19,16 @@
       width: 355px;
       float: right;
 }
-#card-content {
+#card-content-signup {
       padding: 12px 44px;
 }
-#card-title {
+#card-title-signup {
       letter-spacing: 4px;
       padding-bottom: 23px;
       padding-top: 13px;
       text-align: center;
 }
-.underline-title {
+.underline-title-signup {
       background: -webkit-linear-gradient(right, #150b38, #9e91eb);
       height: 2px;
       margin: 1rem auto 0 auto;
@@ -37,23 +37,18 @@
 a {
     text-decoration: none;
 }
-label{
+.label-signup{
     font-size: 11pt;
-}
-#forgot-password{
-    color: #0c0f50;
-    font-size: 14px;
-    padding-top: 20px;
 }
 label h2{
       padding-bottom: 13px;
       font-size: 16px;
 }
-.button-login{
+.button-login-signup{
     padding-left: 6rem;
     color: white;
 }
-.submit{
+.submit-signup{
     background: -webkit-linear-gradient(right,#2c2c54,#2c2c54);
     border-radius: 21px;
     border: none;
@@ -65,11 +60,11 @@ label h2{
     transition: 0.25px;
     width: 153px;
 }
-.submit a{
+.submit-signup a{
     color: white;
     font-size: 16px;
 }
-.submit:hover{
+.submit-signup:hover{
     background: -webkit-linear-gradient(right,#96587e,#9d6586);
     border-radius: 21px;
     border: none;
@@ -82,21 +77,14 @@ label h2{
     transition: 0.25px;
     width: 153px;
 }
-.form{
+.form-signup{
     display: flex;
     flex-direction: column;
-    padding-left: 62px;
-    padding-top: 40px;
 }
-.form h2{
+.form-signup h2{
     font-size: 18px;
 }
-.form-border{
-    height: 1px;
-    width: 100%;
-    background: -webkit-linear-gradient(right,#d1ccc0,#d1ccc0);
-}
-.form-content{
+.form-content-signup{
     background-color: white;
     border: none;
     outline: none;
@@ -105,9 +93,6 @@ label h2{
     border-radius: 15px;
     align-items: center;
 }
-.labels{
+.labels-signup{
     padding: 15px;
-}
-input{
-    padding-left: 25px;
 }

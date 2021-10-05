@@ -3,7 +3,7 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
-.header-materi {
+.header-beranda-materi {
   position: fixed;
   background: #b4cdf1;
   padding: 20px;
@@ -17,23 +17,26 @@
   width: 100%;
   height: 30px;
 }
-.left-area h3 {
+.left-area-beranda-materi h3 {
   color: rgb(29, 29, 58);
   margin: 0;
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
 }
-.left-area span {
+.left-area-beranda-materi span {
   color: rgb(50, 50, 100);
 }
-.log-out {
+.header-beranda-materi .right-area-beranda-materi{
+  float: right;
+  padding-right: 3rem;
+}
+.log-out-beranda-materi {
   padding: 10px;
   background: #1d3a67;
   text-decoration: none;
   float: right;
-  margin-top: -35px;
-  margin-right: 40px;
+
   border-radius: 2px;
   font-size: 15px;
   font-weight: 600;
@@ -41,11 +44,10 @@
   transition: 0.5s;
   border-radius: 20px;
 }
-
-.log-out:hover {
+.log-out-beranda-materi:hover {
   background: #6084bb;
 }
-.sidebar {
+.sidebar-beranda-materi {
   background: #1d3a67;
   margin-top: 70px;
   padding-top: 30px;
@@ -57,18 +59,18 @@
   transition-property: left;
 }
 
-.sidebar .profile-img {
+.sidebar-beranda-materi .profile-img-beranda-materi {
   width: 100px;
   height: 100px;
   border-radius: 100px;
   margin-bottom: 10px;
 }
-.sidebar h4 {
+.sidebar-beranda-materi h4 {
   color: white;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.sidebar a {
+.sidebar-beranda-materi a {
   color: white;
   display: block;
   width: 100%;
@@ -77,13 +79,13 @@
   padding-left: 40px;
   box-sizing: border-box;
 }
-.sidebar a:hover {
+.sidebar-beranda-materi a:hover {
   background: #6084bb;
 }
-.sidebar i {
+.sidebar-beranda-materi i {
   padding-right: 10px;
 }
-label #sidebar-btn {
+label #sidebar-btn-beranda-materi {
   z-index: 1;
   color: rgb(29, 29, 58);
   position: fixed;
@@ -94,78 +96,80 @@ label #sidebar-btn {
   transition: 0.5s;
   transition-property: color;
 }
-label #sidebar-btn:hover {
+.active2-beranda-materi{
+  background-color: #6084bb;
   color: white;
 }
-#check:checked ~ .sidebar {
+label #sidebar-btn-beranda-materi:hover {
+  color: white;
+}
+#check-beranda-materi:checked ~ .sidebar-beranda-materi {
   left: -190px;
 }
-#check:checked ~ .sidebar a span {
+#check-beranda-materi:checked ~ .sidebar-beranda-materi a span {
   display: none;
 }
-#check:checked ~ .sidebar a {
+#check-beranda-materi:checked ~ .sidebar-beranda-materi a {
   font-size: 20px;
   margin-left: 170px;
   width: 80px;
 }
-.content {
-  margin-left: 250px;
+.content-beranda-materi {
+  display: flex;
+  justify-content: center;
   transition: 0.5s;
 }
-#check:checked ~ .content {
-  margin-left: 60px;
+#check-beranda-materi:checked ~ .content-beranda-materi {
 }
-#check {
+#check-beranda-materi {
   display: none;
 }
-.slider {
+.slider-beranda-materi {
   width: 850px;
   height: 500px;
   overflow: hidden;
   text-align: center;
   padding-top: 7rem;
-  padding-left: 8rem;
 }
-.slides{
-  width: 600%;
-  height: 500px;
+.slides-beranda-materi{
+  width: 500%;
+  height: 450px;
   display: flex;
-  padding: 30px;
   border: 0px solid ;
   background-color: rgb(52, 66, 112);
   position: relative;
   z-index: 1;
 }
-.slides input {
+.slides-beranda-materi input {
   display: none;
 }  
-.slide{
+.slide-beranda-materi{
   width: 20%;
   transition: 2.2s;
 }
-.slide .slide-content {
+.slide-beranda-materi .slide-content-beranda-materi {
   width: 800px;
   height: 500px;
   border-radius: 20px;  
 }
-.navigation-manual{
+.navigation-manual-beranda-materi{
   position: absolute;
   width: 800px;
   margin-top: -40px;
   display: flex;
   justify-content: center;  
 }
-.manual-btn{
+.manual-btn-beranda-materi{
   border: 2px solid;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
-.manual-btn:not(:last-child){
+.manual-btn-beranda-materi:not(:last-child){
   margin-right: 40px;
 }
-.manual-btn:hover{
+.manual-btn-beranda-materi:hover{
   background-color: rgb(45, 6, 82);
 }  
 #radio1:checked ~ .first {
@@ -180,7 +184,7 @@ label #sidebar-btn:hover {
 #radio4:checked ~ .first {
   margin-left: -60%;
 }  
-.slide-content h2 {
+.slide-content-beranda-materi h2 {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -190,7 +194,7 @@ label #sidebar-btn:hover {
   font-weight: bold;
   color: white;
 }  
-.slide-content h3 {
+.slide-content-beranda-materi h3 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -200,12 +204,12 @@ label #sidebar-btn:hover {
     font-weight: bold;
     color: white;
 }  
-.row {
+.row-beranda-materi {
   margin-top: 3.5%;
   display: flex;
   justify-content: space-around;
 }
-.about-col {
+.about-col-beranda-materi {
   flex-basis: 25%;
   background-color: white;
   border-radius: 10px;
@@ -215,51 +219,51 @@ label #sidebar-btn:hover {
   transition: 0.5s;
   text-align: justify;
 }
-.teks-video {
+.teks-video-beranda-materi {
   font-size: 26px;
   text-align: center;
   background-color: rgb(173, 169, 255);
   padding: 20px;
   border-radius: 15px;
 }
-.content-video {
+.content-video-materi {
   margin-left: 250px;
   transition: 0.5s;
   padding: 6rem 3rem 0rem 3rem;
 }
-.content-materi {
+.content-beranda-materi {
   padding-top: 9rem;
   padding-left: 19rem;
 }
-.content-materi img {
+.content-beranda-materi img {
   width: 1000px;
   height: 450px;
 }
-.content-video video {
+.content-video-materi video {
   width: 360px;
   height: 250px;
   border-radius: 20px;
   padding-bottom: 30px;
 }
-.bagian-cht-video {
+.bagian-cht-video-materi {
   padding-right: 4rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
   float: right;
 }
-.chat-video {
+.chat-video-materi {
   background-color: #d2d8e6;
   padding: 20px;
   padding-bottom: 8rem;
   border-radius: 20px;
 }
-.chat-video h1 {
+.chat-video-materi h1 {
   font-size: 23px;
 }
-.chat-video h2 {
+.chat-video-materi h2 {
   font-size: 18px;
 }
-.text-decoration {
+.text-decoration-beranda-materi {
   text-decoration: none;
 }
 .ini-time {
@@ -286,53 +290,53 @@ label #sidebar-btn:hover {
 .date {
   font-size: 14pt;
 }
-.card3{
+.card3-beranda-materi{
   padding-top: 1rem;
 }
-.card3 table {
-float: right;
+.card3-beranda-materi table {
+  float: right;
 }
-.card3 td {
-text-align: center;
-padding: 20px;
+.card3-beranda-materi td {
+  text-align: center;
+  padding: 20px;
 }
 .box-video-materi {
-background-image: url("../img/wvsmpp.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-width: 470px;
-height: 520px;
-background-color: white;
-border-radius: 20px;
-float: right;
-box-shadow: 5px 5px 5px 5px rgba(49, 33, 94, 0.7);
-padding-bottom: 4rem;
+  background-image: url("../img/wvsmpp.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 470px;
+  height: 520px;
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+  box-shadow: 5px 5px 5px 5px rgba(49, 33, 94, 0.7);
+  padding-bottom: 4rem;
 }
 .box-video-materi img {
-width: 250px;
-height: 250px;
-padding: 30px;
-padding-bottom: 20px;
-padding-top: 10px;
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .box-video-materi:hover{
-transform: scale(1.1);
-transition: 1s;
+  transform: scale(1.1);
+  transition: 1s;
 }
 .button-vid-mat:hover {
-background-color: rgb(19, 15, 61);
-color: white;
+  background-color: rgb(19, 15, 61);
+  color: white;
 }
 .button-vid-mat {
-border-radius: 15px;
-border: solid 2px rgb(213, 213, 213);
-width: 170px;
-height: 80px;
-background-color: rgb(112, 131, 192);
-font-size: 16px;
-color: black;
+  border-radius: 15px;
+  border: solid 2px rgb(213, 213, 213);
+  width: 170px;
+  height: 80px;
+  background-color: rgb(112, 131, 192);
+  font-size: 16px;
+  color: black;
 }
 .text-vid-mat{
   padding-top: 3rem;

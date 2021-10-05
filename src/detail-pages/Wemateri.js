@@ -2,62 +2,67 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import "../css/style-wemateri.css";
 
+import wavewemateri from "../img/wave-wemater.jpeg"
+import giff9 from "../img/giff9.gif"
+import giff13 from "../img/giff13.gif"
+import giff2 from "../img/giff2.gif"
+
 function Wemateri() {
   return (
     <div className="Wemateri">
-    <section id="banner">
-        <header>
-            <div className="container">
-                <img src="img/wave-wemater.jpeg"/>
+    <section id="banner-wemateri">
+        <header className="header-wemateri">
+            <div className="container-wemateri">
+                <img className="logo-wemateri" src={wavewemateri} alt="Welearn"/>  
             <ul>
-                <li><a href="#SMP">SMP / MTS</a></li>
-                <li><a href="#SMA">SMA / SMK</a></li>
+                <li><a href="#SMP-wemateri">SMP / MTS</a></li>
+                <li><a href="#SMA-wemateri">SMA / SMK</a></li>
             </ul>
         </div>
         </header>
     </section>
 
-    <div className="banner-left">
-        <div className="container">
-                <img src="img/giff9.gif"/>
-                    <div className="ini-box-materi">
-                        <div className="box-materi">
-                            <div className="text-banner">
-                                <h2>WeMateri</h2><br/>
-                                <h3><strong>Pilih Materi Belajarmu dan <br/>Tingkatkan Produktivitas Bersama WeLearn !</strong></h3>
+    <div className="banner-left-wemateri">
+        <div className="container-wemateri">
+            <img className="gb-wemateri" src={giff9} alt="Welearn"/> 
+                    <div className="ini-box-wemateri">
+                        <div className="box-wemateri">
+                            <div className="text-banner-wemateri">
+                                <h2 className="h2-text-banner-wemateri">WeMateri</h2><br/>
+                                <h3 className="h3-text-banner-wemateri"><strong>Pilih Materi Belajarmu dan <br/>Tingkatkan Produktivitas Bersama WeLearn !</strong></h3>
                             </div>
                         </div>
                     </div>
         </div>
     </div>
 
-    <section id="SMP">
-        <div className="container">
-                <img src="img/giff13.gif"/>
-                    <div className="text-smp">
+    <section id="SMP-wemateri">
+        <div className="container-wemateri">
+            <img className="gb-wemateri2" src={giff13} alt="Welearn"/> 
+                    <div className="text-smp-wemateri">
                         <h1>Materi SMP / MTS</h1><br/>
                         <p><strong>Dapatkan akses menuju materi pelajaran SMP / MTS <br/>kelas 7, 8 dan 9 yang lengkap</strong></p>
                     </div>
 
                     <Link to="/home/wemateri/materismp">
-                    <div className="button-materi">
-                        <button type="submit" className="btn-materi"><a href="materi-smp.html"><strong>Baca Materi Sekarang</strong> </a></button>
+                    <div className="button-wemateri">
+                        <button type="submit" className="btn-wemateri"><a href="materi-smp.html"><strong>Baca Materi Sekarang</strong> </a></button>
                     </div>
                     </Link>
         </div>    
     </section>
 
-    <section id="SMA">
-        <div className="container">
-                <img src="img/giff2.gif"/>
-                    <div className="text-sma">
+    <section id="SMA-wemateri">
+        <div className="container-wemateri">
+            <img className="gb-wemateri3" src={giff2} alt="Welearn"/>
+                    <div className="text-sma-wemateri">
                         <h1>Materi SMA / SMK</h1><br/>
                         <p><strong>Dapatkan akses menuju materi pelajaran SMA / SMK <br/>kelas 10, 11 dan 12 yang lengkap</strong></p>
                     </div>
 
                     <Link to="/home/wemateri/materisma">
-                    <div className="button-materi2">
-                        <button type="submit" className="btn-materi2"><a href="materi-sma.html"><strong>Baca Materi Sekarang</strong> </a></button>
+                    <div className="button-wemateri2">
+                        <button type="submit" className="btn-wemateri2"><a href="materi-sma.html"><strong>Baca Materi Sekarang</strong> </a></button>
                     </div>
                     </Link>
         </div>    

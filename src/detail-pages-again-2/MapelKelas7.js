@@ -2,61 +2,67 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import "../css/style-mapel.css";
 
+import buku from "../img/buku.png"
+import vektor from "../img/vektor.png"
+import kimia from "../img/kimia.png"
+import fisika from "../img/fisika.png"
+
+
 function MapelKelas7() {
   return (
     <div className="MapelKelas7">
-    <section id="pelajaran">
+    <section id="pelajaran-mapel">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5DC254" fill-opacity="0.28" d="M0,64L24,69.3C48,75,96,85,144,80C192,75,240,53,288,80C336,107,384,181,432,208C480,235,528,213,576,170.7C624,128,672,64,720,69.3C768,75,816,149,864,165.3C912,181,960,139,1008,122.7C1056,107,1104,117,1152,122.7C1200,128,1248,128,1296,112C1344,96,1392,64,1416,48L1440,32L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
-            <div className="judul">
+            <div className="judul-mapel">
                 <center/><h1><b>MATA PELAJARAN KELAS 7</b></h1>
                 
-                <div className="col-4">
+                <div className="col-4-mapel">
                     <a href="">
-                        <img src="img/buku.png"/>
+                        <img className="buku-mapel" src={buku} alt="Welearn"/>
                     </a>
                     
                         <span><br/><b>BAHASA INDONESIA</b></span>
 
                    <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7">
-                    <div className="tombol">
-                        <a href="beranda-materi-bindo.html" className="button-aktif hijau">Mulai Belajar</a>
+                    <div className="tombol-mapel">
+                        <a href="beranda-materi-bindo.html" className="button-aktif-mapel hijau">Mulai Belajar</a>
                     </div>
                     </Link>
                 </div>
 
-                <div className="col-4">
+                <div className="col-4-mapel">
                     <a href="">
-                        <img src="img/vektor.png"/>
+                        <img className="buku-mapel2" src={vektor} alt="Welearn"/>
                     </a>
 
                         <span><br/><b>MATEMATIKA</b></span>
 
-                    <div className="tombol">
-                        <a href="beranda-materi-mtk.html" className="button-aktif hijau">Mulai Belajar</a>
+                    <div className="tombol-mapel">
+                        <a href="beranda-materi-mtk.html" className="button-aktif-mapel hijau">Mulai Belajar</a>
                     </div>
                 </div>
 
-                <div className="col-4">
+                <div className="col-4-mapel">
                     <a href="">
-                        <img src="img/kimia.png"/>
+                        <img className="buku-mapel3" src={kimia} alt="Welearn"/>
                     </a>
 
                         <span><br/><b>KIMIA</b></span>
                     
-                    <div className="tombol">
-                        <a href="#" className="button-aktif hijau">Mulai Belajar</a>
+                    <div className="tombol-mapel">
+                        <a href="#" className="button-aktif-mapel hijau">Mulai Belajar</a>
                     </div>
                 </div>
             
-                <div className="col-4">
+                <div className="col-4-mapel">
                     <a href="">
-                        <img src="img/fisika.png"/>
+                        <img className="buku-mapel4" src={fisika} alt="Welearn"/>
                     </a>
                             
                         <span><br/><b>FISIKA</b></span>
                             
-                    <div className="tombol">
-                        <a href="#" className="button-aktif hijau">Mulai Belajar</a>
+                    <div className="tombol-mapel">
+                        <a href="#" className="button-aktif-mapel hijau">Mulai Belajar</a>
                     </div>
                 </div>
             </div>

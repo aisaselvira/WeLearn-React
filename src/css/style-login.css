@@ -32,7 +32,7 @@ label{
     font-size: 14px;
     padding-top: 20px;
 }
-.box{
+.box-login2{
     background-color: #D8D8D8;
     width: 600px;
     height: 500px;
@@ -40,16 +40,17 @@ label{
     box-shadow: 1px 2px 8px rgba(0,0,0,0.65);
 }
 .box-login{
-    padding-left: 378px;
+    display: flex;
+    justify-content: center;
 }
-#card-title{
+#card-title-login{
     font-family: "Raleway Thin",sans-serif;
     letter-spacing: 4px;
     padding-bottom: 23px;
     padding-top: 8rem;
     text-align: center;
 }
-#card-title p{
+#card-title-login p{
     font-size: 18px;
     padding-top: 20px;
 
@@ -61,10 +62,12 @@ label{
     padding-left: 11rem;
 }
 #button-login{
-    padding-left: 10rem;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
     color: white;
 }
-#submit{
+#submit-login{
     background: -webkit-linear-gradient(right,#2c2c54,#2c2c54);
     border-radius: 21px;
     border: none;
@@ -76,11 +79,11 @@ label{
     transition: 0.25px;
     width: 153px;
 }
-#submit a{
+#submit-login a{
     color: white;
     font-size: 16px;
 }
-#submit:hover{
+#submit-login:hover{
     background: -webkit-linear-gradient(right,#96587e,#9d6586);
     border-radius: 21px;
     border: none;
@@ -93,10 +96,11 @@ label{
     width: 153px;
 }
 #button-login2{
-    padding-left: 147px;
-    color: white;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
-#submit2{
+#submit2-login{
     background: -webkit-linear-gradient(right,#2c2c54,#2c2c54);
     border-radius: 21px;
     border: none;
@@ -108,11 +112,11 @@ label{
     transition: 0.25px;
     width: 180px;
 }
-#submit2 a{
+#submit2-login a{
     color: white;
     font-size: 16px;
 }
-#submit2:hover{
+#submit2-login:hover{
     background: -webkit-linear-gradient(right,#96587e,#9d6586);
     border-radius: 21px;
     border: none;
@@ -124,13 +128,12 @@ label{
     transition: 0.25px;
     width: 180px;
 }
-.form{
+.form-login{
     display: flex;
     flex-direction: column;
-    padding-left: 62px;
     padding-top: 40px;
 }
-.form h2{
+.form-login h2{
     font-size: 18px;
 }
 .form-border{
@@ -138,7 +141,7 @@ label{
     width: 100%;
     background: -webkit-linear-gradient(right,#d1ccc0,#d1ccc0);
 }
-.form-content{
+.form-content-login{
     background-color: #bf99ff;
     border: none;
     outline: none;
@@ -146,15 +149,6 @@ label{
     height: 35px;
     border-radius: 15px;
 }
-label{
+.label-login{
     padding: 10px;
-}
-input{
-    padding-left: 25px;
-}
-.underline-title{
-    background: -webkit-linear-gradient(right,#d1ccc0,#d1ccc0);
-    height: 2px;
-    margin: -1.1rem auto 0 auto;
-    width: 8px;
 }

@@ -472,7 +472,6 @@ footer ul li {
   cursor: pointer;
   height: 50px;
   margin: 0 auto;
-  margin-top: 25px;
   transition: 0.25px;
   width: 260px;
 }
@@ -502,7 +501,7 @@ footer ul li {
 }
 #ini-wsat2 img {
   float: left;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 420px;
 }
 .text-wsat2 {
@@ -519,6 +518,9 @@ footer ul li {
 }
 .button-wsat2 {
   padding-left: 7rem;
+}
+.button-wsat-beranda2{
+  padding-top: 3rem;
 }
 .btn-wsat2 {
   background-color: rgb(63, 38, 97);
