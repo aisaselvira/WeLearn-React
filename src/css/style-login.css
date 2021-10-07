@@ -6,7 +6,6 @@ body{
     padding:0;
     margin:0;
     font-family: sans-serif;
-    background-color: rgb(248, 236, 255);
 }
 .background-login{
     background-image: url("../img/wavee.svg");
@@ -24,7 +23,7 @@ body{
     position: relative;
     height: 200px;
 }
-label{
+.label-login{
     font-size: 11pt;
 }
 #forgot-password{

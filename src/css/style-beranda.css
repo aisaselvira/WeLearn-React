@@ -230,7 +230,7 @@ a {
   text-align: center;
   color: rgb(87, 87, 111);
 }
-.box-beranda-welearn3 span-beranda {
+.box-beranda-welearn3 .span-beranda {
   color: rgb(18, 5, 36);
   font-size: 34px;
   font-style: italic;
@@ -453,7 +453,6 @@ a {
 }
 .wsat2-beranda {
   padding-top: 6rem;
-  padding-bottom: 4rem;
 }
 #ini-wsat2-beranda {
   background-color: white;
@@ -509,7 +508,6 @@ a {
   background-color: rgb(106, 47, 112);
 }
 .wsat3-beranda {
-  padding-top: 3rem;
   background-color: rgb(251, 251, 255);
 }
 .ws3-beranda {

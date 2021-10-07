@@ -1,16 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-}
-
-body{
-    background: -webkit-radial-gradient(right, #acdfb3, #ddaee9);
-}
-html,body{
-    height: 100%;
-    background: -webkit-radial-gradient(right, #acdfb3, #ddaee9);
 }
 main{
     width: 100%;
@@ -76,7 +67,7 @@ main{
     border-radius: 20px;
     overflow: hidden;
 }
-span label{
+.span-quiz .option-quiz{
     width: 100%;
     height: 100%;
     display: flex;
@@ -87,17 +78,17 @@ span label{
     font-weight: 600;
     color:rgb (22,22,22);
 }
-span label:hover{
+.span-quiz .option-quiz:hover{
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
     color: white;
 }
-input[type="radio"]{
+.radio-quiz[type="radio"]{
     position: relative;
     display: none;
 }
-input[type=radio]:checked~ .option{
+.radio-quiz[type=radio]:checked~ .option-quiz{
     background:  #4db8ff;
 }
 .next-button-container{
@@ -106,7 +97,7 @@ input[type=radio]:checked~ .option{
     display: flex;
     justify-content: center;
 }
-.next-button-container button{
+.next-button-container .button-quiz{
     width: 8rem;
     height: 2rem;
     border-radius: 10px;
@@ -117,7 +108,7 @@ input[type=radio]:checked~ .option{
     cursor: pointer;
     outline: none;
 }
-.next-button-container button:hover{
+.next-button-container .button-quiz:hover{
     background-color: rgb(43, 106, 122);
 }
 .modal-container{
@@ -172,7 +163,7 @@ input[type=radio]:checked~ .option{
     align-items: center;
     justify-content: center;
 }
-.modal-button-container button{
+.modal-button-container .button-quiz{
     width: 10rem;
     height: 2rem;
     background: none;
@@ -183,7 +174,7 @@ input[type=radio]:checked~ .option{
     cursor: pointer;
     border-radius: 20px;
 }
-.modal-button-container button:hover{
+.modal-button-container .button-quiz:hover{
     background-color: rgb(83,82,82);
 }
 @media(min-width:300px) and (max-width:350px){

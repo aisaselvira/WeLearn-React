@@ -47,7 +47,8 @@ a{
     clear: both;
 }
 #banner-wemateri img{
-    padding: 15px;
+    padding-left: 3rem;
+    padding-top: 1rem;
     width: 180px;
 }
 #banner-wemateri{

@@ -3,40 +3,37 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
-.header-beranda-materi {
+.header-materi {
   position: fixed;
   background: #b4cdf1;
   padding: 20px;
   width: 100%;
   height: 30px;
 }
-.header-video {
+.header-video-materi {
   position: fixed;
   background: grey;
   padding: 20px;
   width: 100%;
   height: 30px;
 }
-.left-area-beranda-materi h3 {
+.left-area-materi .h3-left-area {
   color: rgb(29, 29, 58);
   margin: 0;
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 900;
 }
-.left-area-beranda-materi span {
+.left-area-materi .span-left-area {
   color: rgb(50, 50, 100);
 }
-.header-beranda-materi .right-area-beranda-materi{
-  float: right;
-  padding-right: 3rem;
-}
-.log-out-beranda-materi {
+.log-out-materi {
   padding: 10px;
   background: #1d3a67;
   text-decoration: none;
   float: right;
-
+  margin-top: -35px;
+  margin-right: 40px;
   border-radius: 2px;
   font-size: 15px;
   font-weight: 600;
@@ -44,10 +41,11 @@
   transition: 0.5s;
   border-radius: 20px;
 }
-.log-out-beranda-materi:hover {
+
+.log-out-materi:hover {
   background: #6084bb;
 }
-.sidebar-beranda-materi {
+.sidebar-materi {
   background: #1d3a67;
   margin-top: 70px;
   padding-top: 30px;
@@ -59,18 +57,18 @@
   transition-property: left;
 }
 
-.sidebar-beranda-materi .profile-img-beranda-materi {
+.sidebar-materi .profile-img-materi {
   width: 100px;
   height: 100px;
   border-radius: 100px;
   margin-bottom: 10px;
 }
-.sidebar-beranda-materi h4 {
+.sidebar-materi h4 {
   color: white;
   margin-top: 0;
   margin-bottom: 20px;
 }
-.sidebar-beranda-materi a {
+.sidebar-materi a {
   color: white;
   display: block;
   width: 100%;
@@ -79,13 +77,13 @@
   padding-left: 40px;
   box-sizing: border-box;
 }
-.sidebar-beranda-materi a:hover {
+.sidebar-materi a:hover {
   background: #6084bb;
 }
-.sidebar-beranda-materi i {
+.sidebar-materi i {
   padding-right: 10px;
 }
-label #sidebar-btn-beranda-materi {
+.label-materi #sidebar-btn-materi {
   z-index: 1;
   color: rgb(29, 29, 58);
   position: fixed;
@@ -96,80 +94,78 @@ label #sidebar-btn-beranda-materi {
   transition: 0.5s;
   transition-property: color;
 }
-.active2-beranda-materi{
-  background-color: #6084bb;
+.label-materi #sidebar-btn-materi:hover {
   color: white;
 }
-label #sidebar-btn-beranda-materi:hover {
-  color: white;
-}
-#check-beranda-materi:checked ~ .sidebar-beranda-materi {
+#check-materi:checked ~ .sidebar-materi {
   left: -190px;
 }
-#check-beranda-materi:checked ~ .sidebar-beranda-materi a span {
+#check-materi:checked ~ .sidebar-materi a span {
   display: none;
 }
-#check-beranda-materi:checked ~ .sidebar-beranda-materi a {
+#check-materi:checked ~ .sidebar-materi a {
   font-size: 20px;
   margin-left: 170px;
   width: 80px;
 }
-.content-beranda-materi {
-  display: flex;
-  justify-content: center;
+.content-materipage {
+  margin-left: 250px;
   transition: 0.5s;
 }
-#check-beranda-materi:checked ~ .content-beranda-materi {
+#check-materi:checked ~ .content-materipage {
+  margin-left: 60px;
 }
-#check-beranda-materi {
+#check-materi {
   display: none;
 }
-.slider-beranda-materi {
+.slider-materi {
   width: 850px;
   height: 500px;
   overflow: hidden;
   text-align: center;
   padding-top: 7rem;
+  padding-left: 8rem;
 }
-.slides-beranda-materi{
-  width: 500%;
-  height: 450px;
+.slides-materi{
+  width: 600%;
+  height: 500px;
   display: flex;
+  padding: 30px;
   border: 0px solid ;
   background-color: rgb(52, 66, 112);
   position: relative;
   z-index: 1;
 }
-.slides-beranda-materi input {
+.slide-materi .input-materi {
   display: none;
 }  
-.slide-beranda-materi{
+.slide-materi{
   width: 20%;
   transition: 2.2s;
 }
-.slide-beranda-materi .slide-content-beranda-materi {
+.slide-materi .slide-content-materi {
   width: 800px;
   height: 500px;
   border-radius: 20px;  
 }
-.navigation-manual-beranda-materi{
+.navigation-manual-materi{
   position: absolute;
   width: 800px;
   margin-top: -40px;
   display: flex;
   justify-content: center;  
 }
-.manual-btn-beranda-materi{
+.manual-btn-materi{
   border: 2px solid;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
-.manual-btn-beranda-materi:not(:last-child){
+.manual-btn-materi:not(:last-child){
   margin-right: 40px;
 }
-.manual-btn-beranda-materi:hover{
+.manual-btn-materi:hover{
   background-color: rgb(45, 6, 82);
 }  
 #radio1:checked ~ .first {
@@ -184,7 +180,7 @@ label #sidebar-btn-beranda-materi:hover {
 #radio4:checked ~ .first {
   margin-left: -60%;
 }  
-.slide-content-beranda-materi h2 {
+.slide-content-materi h2 {
   display: block;
   font-size: 1.5em;
   margin-block-start: 0.83em;
@@ -194,7 +190,7 @@ label #sidebar-btn-beranda-materi:hover {
   font-weight: bold;
   color: white;
 }  
-.slide-content-beranda-materi h3 {
+.slide-content-materi h3 {
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -204,12 +200,12 @@ label #sidebar-btn-beranda-materi:hover {
     font-weight: bold;
     color: white;
 }  
-.row-beranda-materi {
+.row-materi {
   margin-top: 3.5%;
   display: flex;
   justify-content: space-around;
 }
-.about-col-beranda-materi {
+.about-col-materi {
   flex-basis: 25%;
   background-color: white;
   border-radius: 10px;
@@ -219,7 +215,7 @@ label #sidebar-btn-beranda-materi:hover {
   transition: 0.5s;
   text-align: justify;
 }
-.teks-video-beranda-materi {
+.teks-video-materi {
   font-size: 26px;
   text-align: center;
   background-color: rgb(173, 169, 255);
@@ -231,15 +227,15 @@ label #sidebar-btn-beranda-materi:hover {
   transition: 0.5s;
   padding: 6rem 3rem 0rem 3rem;
 }
-.content-beranda-materi {
+.content-materi {
   padding-top: 9rem;
   padding-left: 19rem;
 }
-.content-beranda-materi img {
+.content-materi img {
   width: 1000px;
   height: 450px;
 }
-.content-video-materi video {
+.content-video-materi .video-materi {
   width: 360px;
   height: 250px;
   border-radius: 20px;
@@ -263,7 +259,7 @@ label #sidebar-btn-beranda-materi:hover {
 .chat-video-materi h2 {
   font-size: 18px;
 }
-.text-decoration-beranda-materi {
+.text-decoration-materi {
   text-decoration: none;
 }
 .ini-time {
@@ -290,13 +286,13 @@ label #sidebar-btn-beranda-materi:hover {
 .date {
   font-size: 14pt;
 }
-.card3-beranda-materi{
+.card3-materi{
   padding-top: 1rem;
 }
-.card3-beranda-materi table {
+.card3-materi .table-materi {
   float: right;
 }
-.card3-beranda-materi td {
+.card3-materi td {
   text-align: center;
   padding: 20px;
 }
@@ -325,11 +321,11 @@ label #sidebar-btn-beranda-materi:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.button-vid-mat:hover {
+.button-vid-materi:hover {
   background-color: rgb(19, 15, 61);
   color: white;
 }
-.button-vid-mat {
+.button-vid-materi {
   border-radius: 15px;
   border: solid 2px rgb(213, 213, 213);
   width: 170px;
@@ -338,19 +334,22 @@ label #sidebar-btn-beranda-materi:hover {
   font-size: 16px;
   color: black;
 }
-.text-vid-mat{
+.text-vid-materi{
   padding-top: 3rem;
   color: white;
   font-size: 25px;
 }
-.text-vid-mat2{
+.text-vid-materi2{
   padding-top: 1rem;
   color: rgb(202, 202, 202);
   font-size: 20px;
 }
-.vid-mat{
+.vid-materi{
   background-color: rgb(29, 24, 44);
   width: 600px;
   height: 500px;
   color: white;
+}
+.active-2-materi {
+  background-color: #6084bb;
 }

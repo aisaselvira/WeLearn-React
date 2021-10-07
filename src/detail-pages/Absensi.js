@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/style-absensi.css";
 
+import student from "../img/student.png"
+
 function Absensi() {
   return (
     <div className="Absensi">
@@ -11,37 +13,37 @@ function Absensi() {
     </div>
 
     <div id="absensiii">
-            <div id="foto"> 
-                <center><img src="img/student.png"/></center>
-                <center><p>Siswa</p></center>
+            <div id="foto-absensi"> 
+                <center><img className="gb-absensi" src={student} alt="Welearn"/></center>
+                <center><p className="p-absensi">Siswa</p></center>
             </div>
         </div>
 
         <div className="absensi-form">
             <div id="absen">
-                <div id="card-content">
-                    <div id="card-title">
-                        <h5>Jangan Lupa Absensi</h5>
-                            <div className="underline-title"></div>
+                <div id="card-content-absensi">
+                    <div id="card-title-absensi">
+                        <h5 className="absensi">Jangan Lupa Absensi</h5>
+                            <br/><div className="underline-title-absensi"></div>
                     </div>
                 </div>
 
-        <form act method="POST" className="form">
+        <form act method="POST" className="form-absensi">
 
-            <label for="name">&nbsp; Nama Siswa/Siswi </label>
-                <input id="name" className="form-content" autocomplete="on" required />
-                    <div className="form-border"></div>
+            <label className="label-absensi" for="name">&nbsp;<h1 className="h1-absensi">Nama Siswa / Siswi : </h1></label>
+                <input id="name-absensi" className="form-content-absensi" autocomplete="on" required />
+                    <div className="form-border-absensi"></div>
                             
-            <label for="kelas">&nbsp;Kelas Siswa</label>
-                <select>
-                    <option value="Pilih Jurusan" selected="selected">Pilih Kelas</option>
+            <label className="label-absensi" for="kelas">&nbsp;<h1 className="h1-absensi2">Kelas Siswa :</h1></label>
+                <select className="select-absensi">
+                    <option value="Pilih Jurusan" selected="selected">Pilih Kelas :</option>
                     <option value="X">X</option>
                     <option value="XI">XI</option>
                     <option value="XII">XII</option>
                 </select>
                             
-            <label for="jurusan">&nbsp;Program Keahlian</label>
-                <select>
+            <label className="label-absensi" for="jurusan">&nbsp;<h1 className="h1-absensi3">Program Keahlian : </h1></label>
+                <select className="select-absensi">
                     <option value="Program Keahlian" selected="selected">Program Keahlian</option>
                     <option value="Teknik Bisnis Konstruksi dan Properti">Teknik Bisnis Konstruksi dan Properti</option>
                     <option value="Teknik Desain Pemodelan dan Informasi Bangunan">Teknik Desain Pemodelan dan Informasi Bangunan</option>
@@ -56,14 +58,14 @@ function Absensi() {
                 </select>
                             
 
-            <label for="ket">&nbsp; Keterangan Siswa </label>
-                <input id="ket" className="form-content" autocomplete="on" required />
-                    <div className="form-border"></div>
-                        <label>Jenis Kelamin </label>
-                        <label><input type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-Laki</label>
-                        <label><input type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
-                        <div className="button-submit">
-                            <button type="submit" className="submit"><a href="beranda.html">SUBMIT</a></button>
+            <label className="label-absensi" for="ket">&nbsp;<h1 className="h1-absensi4">Keterangan Siswa : </h1></label>
+                <input id="ket" className="form-content-absensi" autocomplete="on" required />
+                    <div className="form-border-absensi"></div>
+                        <label className="label-absensi"><h1 className="h1-absensi5">Jenis Kelamin : </h1></label>
+                        <label className="label-absensi"><input className="input-absensi" type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-Laki</label>
+                        <label className="label-absensi"><input className="input-absensi"type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
+                        <div className="button-submit-absensi">
+                            <button type="submit" className="submit-absensi"><a href="beranda.html">SUBMIT</a></button>
                         </div>
         </form>
     </div>

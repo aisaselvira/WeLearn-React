@@ -161,9 +161,8 @@ function Beranda() {
             <div className="text-wsat-beranda">
               <h3 className="h3-beranda1">WSAT kepanjangan dari We - Scholastic Assesment Test</h3>
               <h3 className="h3-beranda2">
-                WSAT merupakan test standar untuk masuk ke Perguruan Tinggi di{" "}
+                WSAT merupakan test standar untuk masuk ke Perguruan Tinggi{" "}
               </h3>
-              <br/>
             </div>
 
             <div className="button-wsat-beranda2">
@@ -269,22 +268,25 @@ function Beranda() {
           <div className="box-beranda2">
             <img className="fresh-beranda" src={healing} alt="Welearn"/>
             <h3 className="teks-w-fresh-beranda">W-Fresh</h3>
-          </div>
+            </div>
+            
+          <Link to="/home/wfresh">
           <div className="w-fresh-beranda">
             <button type="button" className="button-w-fresh-beranda">
-              <a href="https://github.com/">
+              <a href="">
                 <strong>Coba Sekarang</strong>
               </a>
             </button>
           </div>
+          </Link>
         </div>
       </div>
 
       <div className="card4-beranda">
         <div className="box-beranda-welearn3">
           <h1 className="h1-bottom-beranda">
-            "Bersama <span className="span-beranda">WeLearn</span> Belajar Menjadi <span className="span-beranda">Cerdas,</span>{" "}
-            <br/><span className="span-beranda">Cepat,</span> dan <span className="span-beranda">Mudah</span> "
+            "Bersama <span className="span-beranda">WeLearn</span> Belajar Menjadi <span className="span-beranda">Mudah,</span>{" "}
+            <br/><span className="span-beranda">Efektif,</span> dan <span className="span-beranda">Interaktif</span> "
           </h1>
         </div>
       </div>
@@ -301,7 +303,7 @@ function Beranda() {
             WeLearn adalah sebuah website pendidikan <br></br>yang dibuat
             sebagai solusi dalam memudahkan <br />
             pengguna untuk mengatasi pembelajaran <br /> jarak jauh menjadi
-            lebih efektif, mudah, cepat <br /> dan paraktis
+            lebih efektif, mudah, cepat <br /> dan interaktif
           </h3>
           <div className="col-3-beranda">
             <h4 className="h4-bottom-beranda">Addres</h4>
