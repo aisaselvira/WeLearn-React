@@ -167,7 +167,7 @@ function Beranda() {
 
             <div className="button-wsat-beranda2">
               <button type="submit" className="btn-wsat2-beranda2">
-                    <a href="#">
+                    <a href="https://google.com">
                       <strong>Baca Selengkapnya</strong>{" "}
                     </a>
               </button>
@@ -273,7 +273,7 @@ function Beranda() {
           <Link to="/home/wfresh">
           <div className="w-fresh-beranda">
             <button type="button" className="button-w-fresh-beranda">
-              <a href="">
+              <a href="https://google.com">
                 <strong>Coba Sekarang</strong>
               </a>
             </button>

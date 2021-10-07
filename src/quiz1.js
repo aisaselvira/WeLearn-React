@@ -149,7 +149,7 @@ function checkForAnswer() {
     options[0].checked === false &&
     options[1].checked === false &&
     options[2].checked === false &&
-    options[3].checked == false
+    options[3].checked === false
   ) {
     document.getElementById("option-modal").style.display = "flex";
   }
@@ -177,19 +177,19 @@ function checkForAnswer() {
   });
 }
 
-function handleNextQuestion() {
-  checkForAnswer();
-  unCheckRadioButtons();
+// function handleNextQuestion() {
+//   checkForAnswer();
+//   unCheckRadioButtons();
 
-  setTimeout(() => {
-    if (indexNumber <= 9) {
-      NextQuestion(indexNumber);
-    } else {
-      handleEndGame();
-    }
-    resetOptionBackground();
-  }, 1000);
-}
+//   setTimeout(() => {
+//     if (indexNumber <= 9) {
+//       NextQuestion(indexNumber);
+//     } else {
+//       handleEndGame();
+//     }
+//     resetOptionBackground();
+//   }, 1000);
+// }
 
 function resetOptionBackground() {
   const options = document.getElementsByName("option");
@@ -229,17 +229,17 @@ function handleEndGame() {
   document.getElementById("score-modal").style.display = "flex";
 }
 
-function closeScoreModal() {
-  questionNumber = 1;
-  playerScore = 0;
-  wrongAttempt = 0;
-  indexNumber = 0;
-  shuffledQuestions = [];
-  NextQuestion(indexNumber);
-  document.getElementById("score-modal").style.display = "none";
-}
+// function closeScoreModal() {
+//   questionNumber = 1;
+//   playerScore = 0;
+//   wrongAttempt = 0;
+//   indexNumber = 0;
+//   shuffledQuestions = [];
+//   NextQuestion(indexNumber);
+//   document.getElementById("score-modal").style.display = "none";
+// }
 
-function closeOptionModal() {
-  document.getElementById("option-modal").style.display = "none";
-}
+// function closeOptionModal() {
+//   document.getElementById("option-modal").style.display = "none";
+// }
 export default quiz1;

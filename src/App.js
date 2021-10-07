@@ -67,7 +67,7 @@ function App() {
         <Route exact path="/home">
           <Beranda />
         </Route>
-        <Route path="/signup">
+        <Route exact path="/signup">
           <Signup />
         </Route>
         <Route exact path="/home/wemateri">
@@ -88,25 +88,25 @@ function App() {
         <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7">
           <MateriBIndo7 />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
           <MateriPageBindo />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
           <VideoMateriBindo />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
           <RangkumanBindo />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
           <QuizBindo />
         </Route>
-        <Route path="/home">
+        <Route exact path="/home">
           <ButtonBack />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas8/materibindo8">
+        <Route exact path="/home/wemateri/materismp/mapelkelas8/materibindo8">
           <MateriBIndo8 />
         </Route>
-        <Route path="/home/wemateri/materismp/mapelkelas9/materibindo9">
+        <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9">
           <MateriBIndo9 />
         </Route>
         <Route exact path="/home/wemateri/materisma">
@@ -121,43 +121,43 @@ function App() {
         <Route exact path="/home/wemateri/materisma/mapelkelas12">
           <MapelKelas12 />
         </Route>
-        <Route path="/home/wemateri/materisma/mapelkelas10/materibindo10">
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10">
           <MateriBIndo10 />
         </Route>
-        <Route path="/home/wemateri/materisma/mapelkelas11/materibindo11">
+        <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11">
           <MateriBIndo11 />
         </Route>
-        <Route path="/home/wemateri/materisma/mapelkelas12/materibindo12">
+        <Route exact path="/home/wemateri/materisma/mapelkelas12/materibindo12">
           <MateriBIndo12 />
         </Route>
         <Route exact path="/home/wsat">
           <WSAT />
         </Route>
-        <Route path="/home/wsat/welesson">
+        <Route exact path="/home/wsat/welesson">
           <WeLesson />
         </Route>
         <Route exact path="/home/wsat/weexam">
           <WeExam />
         </Route>
-        <Route path="/home/wsat/weexam/tps">
+        <Route exact path="/home/wsat/weexam/tps">
           <TPS />
         </Route>
-        <Route path="/home/wsat/weexam/tpa">
+        <Route exact path="/home/wsat/weexam/tpa">
           <TPA />
         </Route>
-        <Route path="/home/jadwal">
+        <Route exact path="/home/jadwal">
           <Jadwal />
         </Route>
-        <Route path="/home/absensi">
+        <Route exact path="/home/absensi">
           <Absensi />
         </Route>
         <Route exact path="/home/ujianhariini">
           <UjianHariIni />
         </Route>
-        <Route path="/home/ujianhariini/ujian">
+        <Route exact path="/home/ujianhariini/ujian">
           <Ujian />
         </Route>
-        <Route path="/home/wfresh">
+        <Route exact path="/home/wfresh">
           <WFresh />
         </Route>
       </Switch>
