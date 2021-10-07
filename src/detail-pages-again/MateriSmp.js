@@ -14,7 +14,7 @@ function MateriSmp() {
     <div className="MateriSmp">
     <section id="banner-wemateri">
             <header>
-                  <div classNameName="container-wemateri">
+                  <div className="container-wemateri">
                         <img className="logo-wemateri" src={wavewemateri} alt="Welearn"/>  
                   </div>
             </header>

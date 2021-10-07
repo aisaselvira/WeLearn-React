@@ -3,10 +3,21 @@ import "../css/quiz1.css";
 
 
 import quiz1 from "../quiz1";
+
+
   
 function QuizBindo() {
-  console.log(quiz1);
+  console.log('quiz b indo', quiz1);
 
+  let shuffledQuestions = [];
+  // function handleQuestions() {
+  //     while (shuffledQuestions.length <= 9) {
+  //       const random = quiz1[Math.floor(Math.random() * quiz1.length)];
+  //       if (!shuffledQuestions.includes(random)) {
+  //         shuffledQuestions.push(random);
+  //       }
+  //     }
+  //   }
   return (
       <div className="QuizBindo" onload="NextQuestion(0)">
     <main>
@@ -23,7 +34,7 @@ function QuizBindo() {
           </div>
 
           <div className="modal-button-container">
-            <button classNameName="button-quiz" onclick="closeScoreModal()">continue</button>
+            <button className="button-quiz" onclick="closeScoreModal()">continue</button>
           </div>
         </div>
       </div>
@@ -35,7 +46,15 @@ function QuizBindo() {
         </div>
 
         <div className="game-question-container">
-          <h1 id="display-question"></h1>
+        <h1>tes</h1>
+          {
+            quiz1.map((item, key) => (
+              <div>
+                <h1 >{item.question}</h1>
+                <p>Soal</p>
+              </div>
+            ))
+          }
         </div>
 
         <div className="game-options-container">

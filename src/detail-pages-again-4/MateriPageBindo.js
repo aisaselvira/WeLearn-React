@@ -5,23 +5,23 @@ import cw from "../img/cw.jpeg"
 
 function MateriPageBindo() {
   return (
-      <div classNameName="MateriPageBindo">
+      <div className="MateriPageBindo">
            <input type="checkbox" id="check-materi"/>
-            <header classNameName="header-materi">
+            <header className="header-materi">
                         <label className="label-materi" for="check">
-                              <i classNameName="fas fa-bars" id="sidebar-btn-materi"></i>
+                              <i className="fas fa-bars" id="sidebar-btn-materi"></i>
                         </label>
 
-                        <div classNameName="left-area-materi">
+                        <div className="left-area-materi">
                               <h3 className="h3-left-area">Bahasa <span className="span-left-area">Indonesia</span></h3>
                         </div>
 
-                        <div classNameName="right-area-materi">
-                              <a href="beranda.html" classNameName="log-out-materi">Keluar</a>
+                        <div className="right-area-materi">
+                              <a href="beranda.html" className="log-out-materi">Keluar</a>
                         </div>
             </header>
 
-    <div classNameName="sidebar-materi">
+    <div className="sidebar-materi">
             <center>
                   <img className="profile-img-materi" src={cw} alt="Welearn"/>
                   <h4>Siswa</h4>
