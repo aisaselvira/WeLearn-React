@@ -8,6 +8,7 @@ import {
 import Login from "./pages/Login";
 import Beranda from "./pages/Beranda";
 import Signup from "./pages/Signup";
+import ButtonBack from "./pages/Beranda";
 
 // pages detail
 import Wemateri from "./detail-pages/Wemateri";
@@ -46,6 +47,8 @@ import MateriBIndo12 from "./detail-pages-again-3/MateriBIndo12";
 //pages detail again4
 import MateriPageBindo from "./detail-pages-again-4/MateriPageBindo";
 import QuizBindo from "./detail-pages-again-4/QuizBindo";
+import VideoMateriBindo from "./detail-pages-again-4/VideoMateriBindo";
+import RangkumanBindo from "./detail-pages-again-4/RangkumanBindo";
 
 // pages css
 import "./css/style-login.css";
@@ -88,8 +91,17 @@ function App() {
         <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
           <MateriPageBindo />
         </Route>
+        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
+          <VideoMateriBindo />
+        </Route>
+        <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
+          <RangkumanBindo />
+        </Route>
         <Route path="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
           <QuizBindo />
+        </Route>
+        <Route path="/home">
+          <ButtonBack />
         </Route>
         <Route path="/home/wemateri/materismp/mapelkelas8/materibindo8">
           <MateriBIndo8 />

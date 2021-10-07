@@ -1,6 +1,8 @@
 import React from 'react'
 import "../css/style-materi-detail.css";
 
+import cw from "../img/cw.jpeg"
+
 function MateriPageBindo() {
   return (
       <div classNameName="MateriPageBindo">
@@ -21,7 +23,7 @@ function MateriPageBindo() {
 
     <div classNameName="sidebar-materi">
             <center>
-                  <img src="img/cw.jpeg" classNameName="profile-img-materi" alt=""/>
+                  <img className="profile-img-materi" src={cw} alt="Welearn"/>
                   <h4>Siswa</h4>
             </center>
                   <ul>

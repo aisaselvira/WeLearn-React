@@ -1,4 +1,4 @@
-const questions = [
+const quiz1 = [
   {
     question:
       "Audrey memiliki pita sepanjang  m dan Lucky memiliki pita  cm. Perbandingan panjang pita Audrey dan Lucky adalah",
@@ -104,7 +104,7 @@ let shuffledQuestions = [];
 
 function handleQuestions() {
   while (shuffledQuestions.length <= 9) {
-    const random = questions[Math.floor(Math.random() * questions.length)];
+    const random = quiz1[Math.floor(Math.random() * quiz1.length)];
     if (!shuffledQuestions.includes(random)) {
       shuffledQuestions.push(random);
     }
@@ -242,3 +242,4 @@ function closeScoreModal() {
 function closeOptionModal() {
   document.getElementById("option-modal").style.display = "none";
 }
+export default quiz1;

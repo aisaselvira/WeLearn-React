@@ -18,9 +18,11 @@ function MateriBIndo7() {
         <h3 className="h3-left-area">Bahasa <span className="span-left-area">Indonesia</span></h3>
       </div>
 
+      <Link to="/home">
       <div className="right-area-materi">
         <a href="beranda.html" class="log-out-materi">Keluar</a>
       </div>
+      </Link>
     </header>
 
     <div className="sidebar-materi">
@@ -42,14 +44,18 @@ function MateriBIndo7() {
           </Link>
         </li>
         <li className="text-decoration-materi">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
           <a href="video-materi.html"
           ><i className="fas fa-video"></i><span>Video Materi</span>
           </a>
+          </Link>
         </li>
         <li className="text-decoration-materi">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
           <a href="rangkuman-materi-bindo.html"
             ><i className="fas fa-file-word"></i><span>Rangkuman Materi</span>
          </a>
+         </Link>
         </li>
         <li className="text-decoration-materi">
           <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
