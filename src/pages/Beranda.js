@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
 import "../css/style-beranda.css";
+
+import Clock from 'react-clock';
+import 'react-clock/dist/Clock.css';
+
 
 // import image
 import weLearn from '../img/we-learn.jpeg'
@@ -23,6 +27,14 @@ import linkedin from "../img/linkedin.png"
 import welearnnn from "../img/welearnnn.jpeg"
 
 function Beranda() {
+  const [clockState, setClockState] = useState();
+
+  useEffect(() => {
+    setInterval(() => {
+      const date = new Date();
+      setClockState(date.toLocaleTimeString());
+    }, 1000);
+  }, []);
   return (
     
     <div className="Beranda">
@@ -75,6 +87,8 @@ function Beranda() {
               <span className="hms"></span>
               <span className="ampm"></span>
               <br></br>
+              <p>Current time:</p>
+              <div style={{ fontSize: "55px", margin: "60px", color: "black" }}>{clockState}</div>
               <span className="date"></span>
             </div>
           </div>
@@ -100,6 +114,7 @@ function Beranda() {
                   <h2 className="text-wsat3-beranda">
                     Yuk kenali fitur - fitur menarik apa saja<br></br> yang ada
                     di WeLearn !{" "}
+                    
                   </h2>
                 </div>
                 <div className="button-wsat-beranda">
