@@ -2,54 +2,83 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 #header-wfresh {
-  background-color: #2b2252;
-  height: 50px;
+  background-color: #211a41;
+  width: 100%;
+  height: 80px;
+}
+.bg-wfresh{
+  background-image: url("../img/giff10.gif");
+  height: 500px;
+}
+.bg-wfresh2{
+  padding-top: 24rem;
+}
+.p-wfresh{
+  text-align: left;
   color: white;
-  text-align: center;
-  padding-top: 10px;
-  font-size: 25px;
+  padding: 10px;
+}
+.ini-wfresh{
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 820px;
+}
+.logo-wfresh{
+  width: 160px;
+  height: 40px;
+  float: left;
+  padding-left: 4rem;
+  padding-top: 20px;
 }
 #kiri-wfresh {
   float: left;
-  width: 49%;
+  width: 500px;
   text-align: center;
+  background-color: rgb(128, 83, 127);
+  border-radius: 10px;
 }
 
 #kanan-wfresh {
   float: right;
   text-align: center;
-  display: flex;
-  justify-content: right;
+  width: 650px;
+  background-color: rgb(128, 83, 127);
+  border-radius: 10px;
 }
 
 .h2-kiri-wfresh {
+  padding-top: 20px;
   text-align: center;
+  color: white;
 }
 #video-wfresh {
-  width: 100%;
   text-align: center;
+  padding-top: 20px;
+  color: white;
 }
 
 #all-col-wfresh {
-  padding: 15px;
-  border: 3px solid #0c375f;
-  margin: 20px;
+  padding: 4rem;
   height: 420px;
   width: 365px;
   border-radius: 15px;
+  float: left;
+  color: white;
 }
-
 #all2-col-wfresh {
-  padding: 15px;
-  padding-left: 0px;
-  border: 1px solid #0c375f;
-  margin: 20px;
-  width: 90%;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  width: 300px;
   border-radius: 15px;
   align-items: center;
 }
 .h3-wfresh {
   text-align: center;
+  color: white;
+  padding-top: 15px;
 }
 .hari-wfresh{
   text-align: center;
@@ -62,33 +91,52 @@ body {
   border-radius: 10px;
   font-size: 30px;
 }
-
-.card-wfresh {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(77, 118, 165);
-  margin: 5%;
+.card-text-wfresh{
+  font-size: 18px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+.card-text-wfresh-2{
+  font-size: 16px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+.card-text-wfresh-3{
+  font-size: 22px;
+  padding: 20px;
+  color: white;
+  text-align: center;
   border-radius: 10px;
-  padding: 5px;
+}
+.card-wfresh {
+  width: 260px;
+  height: 640px;
+  background-color: rgb(65, 31, 64);
+  border-radius: 10px;
+}
+.webinar-wfresh{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
   display: flex;
+  justify-content: center;
+  background-color: rgb(245, 203, 255);
 }
 .nya-wfresh {
   text-align: center;
-  padding: 50px;
-  height: 200px;
 }
 .semuaaa-wfresh {
   width: 100%;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  background-color: rgb(245, 203, 255);
+  padding-top: 48rem;
 }
 
 .card-wfresh img {
-  width: 200px;
-  height: 200px;
-  border-radius: 24px;
+  width: 245px;
+  height: 250px;
+  border-radius: 10px;
 }
 
 .card-wfresh p {
@@ -98,21 +146,14 @@ body {
   padding: 10px;
 }
 
-.h1-wfresh-webinar {
-  text-align: center;
-  background-color: #0c375f;
-  color: beige;
-}
-
 #col-wfresh {
   margin-top: 4%;
   flex-basis: 31%;
-  background: rgb(97, 96, 155);
+  background: rgb(211, 199, 237);
   margin-bottom: 5%;
   box-sizing: border-box;
   transition: 0.5s;
-  box-shadow: 7px 7px 10px #6e5ac9;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 110px;
   align-content: center;
   align-items: center;
@@ -123,13 +164,100 @@ body {
 .audio-wfresh {
   float: left;
   padding: 30px;
-  color: #967bd6;
 }
 
 .video-wfresh1 {
+  width: 450px;
+}
+.btn-wfresh{
+  padding-top: 30px;
+}
+ #submit-wfresh {
+    background-color: rgb(255, 204, 242);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    height: 42px;
+    transition: 0.25s;
+    width: 180px;
+    align-items: center;
+    font-size: 14px;
+}
+ #submit-wfresh:hover {
+    background-color: rgb(146, 66, 126);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    height: 42px;
+    transition: 0.25s;
+    width: 180px;
+    align-items: center;
+    font-size: 14px;
+}
+.game-wfresh{
   width: 90%;
-  align-content: center;
-  text-align: center;
-  align-items: center;
-  align-self: center;
+}
+.gbwfresh{
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+.h1-text-wfresh{
+  padding-top: 6rem;
+  text-align: left;
+  font-size: 22px;
+}
+.btn-wfresh2{
+  padding-top: 3rem;
+}
+#submit-wfresh2 {
+    background-color: rgb(123, 28, 61);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    height: 47px;
+    transition: 0.25s;
+    width: 240px;
+    align-items: center;
+    font-size: 16px;
+}
+#submit-wfresh2:hover {
+    background-color: rgb(255, 210, 210);
+    color: black;
+}
+.game-wfresh2{
+  width: 90%;
+  padding-top: 15rem;
+}
+.gbwfresh2{
+  width: 550px;
+  height: 350px;
+  float: right;
+}
+.h1-text-wfresh2{
+  padding-top: 6rem;
+  text-align: left;
+  font-size: 22px;
+}
+.btn-wfresh3{
+  padding-top: 3rem;
+}
+#submit-wfresh3 {
+    background-color: rgb(123, 28, 61);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    height: 47px;
+    transition: 0.25s;
+    width: 240px;
+    align-items: center;
+    font-size: 16px;
+}
+#submit-wfresh3:hover {
+    background-color: rgb(255, 210, 210);
+    color: black;
 }

@@ -41,7 +41,7 @@ a {
   border-radius: 20px;
 }
 .active-beranda {
-  background-color: rgb(181, 202, 255);
+  background-color: rgb(96, 124, 194);
   border-radius: 20px;
   color: #000;
 }
@@ -106,26 +106,17 @@ a {
 }
 .ini-time {
   float: left;
-  padding-left: 55rem;
+  padding-left: 58rem;
 }
 .time {
   background-color: white;
   color: #000(253, 230, 230);
   border: 7px solid rgb(255, 252, 252);
   box-shadow: 0 2px 10px 0 rgba(214, 167, 167, 0.6),0 2px 10px 0 rgba(0, 0, 0, 0.6);
-  padding: 8px;
   text-align: center;
-  width: 250px;
+  width: 220px;
+  height: 70px;
   border-radius: 15px;
-}
-.hms {
-  font-size: 18pt;
-}
-.ampm {
-  font-size: 16pt;
-}
-.date {
-  font-size: 14pt;
 }
 .container-beranda {
   width: 90%;

@@ -1,142 +1,70 @@
-import React from 'react'
-import "../css/quiz1.css";
+import React, { useState, useEffect } from 'react';
+import '../css/style-quiz.css';
 
+import Start from '../components/Start';
+import Question from '../components/Question';
+import End from '../components/End';
+import Modal from '../components/Modal';
+import quizData from '../data/quiz.json';
 
-import quiz1 from "../quiz1";
+let interval;
 
+const QuizBindo = () => {
+  const [step, setStep] = useState(1);
+  const [activeQuestion, setActiveQuestion] = useState(0);
+  const [answers, setAnswers] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [time, setTime] = useState(0);
 
-  
-function QuizBindo() {
-  console.log('quiz b indo', quiz1);
+  useEffect(() => {
+    if(step === 3) {
+      clearInterval(interval);
+    }
+  }, [step]);
 
-  let shuffledQuestions = [];
-  // function handleQuestions() {
-  //     while (shuffledQuestions.length <= 9) {
-  //       const random = quiz1[Math.floor(Math.random() * quiz1.length)];
-  //       if (!shuffledQuestions.includes(random)) {
-  //         shuffledQuestions.push(random);
-  //       }
-  //     }
-  //   }
+  const quizStartHandler = () => {
+    setStep(2);
+    interval = setInterval(() => {
+      setTime(prevTime => prevTime + 1);
+    }, 1000);
+  }
+
+  const resetClickHandler = () => {
+    setActiveQuestion(0);
+    setAnswers([]);
+    setStep(2);
+    setTime(0);
+    interval = setInterval(() => {
+      setTime(prevTime => prevTime + 1);
+    }, 1000);
+  }
+
   return (
-      <div className="QuizBindo" onload="NextQuestion(0)">
-    <main>
-      <div className="modal-container" id="score-modal">
-        <div className="modal-content-container">
-          <h1>CONGRATS!!</h1>
+    <div className="QuizBindo">
+      {step === 1 && <Start onQuizStart={quizStartHandler} />}
+      {step === 2 && <Question 
+        data={quizData.data[activeQuestion]}
+        onAnswerUpdate={setAnswers}
+        numberOfQuestions={quizData.data.length}
+        activeQuestion={activeQuestion}
+        onSetActiveQuestion={setActiveQuestion}
+        onSetStep={setStep}
+      />}
+      {step === 3 && <End 
+        results={answers}
+        data={quizData.data}
+        onReset={resetClickHandler}
+        onAnswersCheck={() => setShowModal(true)}
+        time={time}
+      />}
 
-          <div className="grade-details">
-            <p>Attempts:10</p>
-            <p>Wrong Answers:<span id="wrong-answers"></span></p>
-            <p>Right Answers:<span id="right-answers"></span></p>
-            <p>Grade :<span id="grade-percentage"></span>%</p>
-            <p><span id="remarks"></span></p>
-          </div>
-
-          <div className="modal-button-container">
-            <button className="button-quiz" onclick="closeScoreModal()">continue</button>
-          </div>
-        </div>
-      </div>
-
-      <div className="game-quiz-container">
-        <div className="game-details-container">
-          <h1>Score:<span id="player-score"></span> /10</h1>
-          <h1>Question:<span id="question-number"></span> /10</h1>
-        </div>
-
-        <div className="game-question-container">
-        <h1>tes</h1>
-          {
-            quiz1.map((item, key) => (
-              <div>
-                <h1 >{item.question}</h1>
-                <p>Soal</p>
-              </div>
-            ))
-          }
-        </div>
-
-        <div className="game-options-container">
-          <div className="modal-container" id="option-modal">
-            <div className="modal-content-container">
-              <h1>Please pick an option</h1>
-
-              <div className="modal-button-container">
-                <button onclick="closeOptionModal()">continue</button>
-              </div>
-            </div>
-          </div>
-
-          <span className="span-quiz">
-            <input
-              type="radio"
-              id="option-one"
-              name="option"
-              className="radio-quiz"
-              value="optionA"
-            />
-            <label
-              for="option-one"
-              className="option-quiz"
-              id="option-one-label"
-            ></label>
-          </span>
-
-          <span className="span-quiz">
-            <input
-              type="radio"
-              id="option-two"
-              name="option"
-              className="radio-quiz"
-              value="optionB"
-            />
-            <label
-              for="option-two"
-              className="option-quiz"
-              id="option-two-label"
-            ></label>
-          </span>
-
-          <span className="span-quiz">
-            <input
-              type="radio"
-              id="option-three"
-              name="option"
-              className="radio-quiz"
-              value="optionC"
-            />
-            <label
-              for="option-three"
-              className="option-quiz"
-              id="option-three-label"
-            ></label>
-          </span>
-
-          <span className="span-quiz">
-            <input
-              type="radio"
-              id="option-four"
-              name="option"
-              className="radio-quiz"
-              value="optionD"
-            />
-            <label
-              for="option-four"
-              className="option-quiz"
-              id="option-four-label"
-            ></label>
-          </span>
-        </div>
-
-        <div className="next-button-container">
-          <button className="button-quiz" onclick="handleNextQuestion()">Next Question</button>
-        </div>
-      </div>
-    </main>
-    <script src="quiz1.js"></script>
-</div>
-  )
+      {showModal && <Modal 
+        onClose={() => setShowModal(false)}
+        results={answers}
+        data={quizData.data}
+      />}
+    </div>
+  );
 }
 
-export default QuizBindo
+export default QuizBindo;

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "../css/style-tpstka.css";
 
 import gbtps from "../img/daftar.png"
@@ -18,9 +19,11 @@ function TPS() {
             <div class="about-col-tpstpa">
                   <p><strong>Penalaran <br/>Umum</strong></p>
                   <img className="gb-tps" src={gbtps} alt="Welearn"/>
+                  <Link to="/home/wsat/weexam/tpa/tryouttps">
                   <div className="btn-tps">
                         <button type="button" id="submit-tpstpa"><a href=""><strong>Try Out</strong></a></button>
                   </div>
+                  </Link>
             </div>
 
             <div class="about-col-tpstpa">

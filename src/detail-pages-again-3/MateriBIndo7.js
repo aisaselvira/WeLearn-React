@@ -15,14 +15,12 @@ function MateriBIndo7() {
       </label>
 
       <div className="left-area-materi">
-        <h3 className="h3-left-area">Bahasa <span className="span-left-area">Indonesia</span></h3>
+          <h3 className="h3-left-area">BAHASA <span className="span-left-area">INDONESIA</span>
+                <Link to="/home">
+                <a href="beranda.html" class="log-out-materi">Keluar</a>
+              </Link>
+          </h3>
       </div>
-
-      <Link to="/home">
-      <div className="right-area-materi">
-        <a href="beranda.html" class="log-out-materi">Keluar</a>
-      </div>
-      </Link>
     </header>
 
     <div className="sidebar-materi">

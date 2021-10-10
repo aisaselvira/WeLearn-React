@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
 import "../css/style-beranda.css";
 
-import Clock from 'react-clock';
-import 'react-clock/dist/Clock.css';
+// import Clock from 'react-clock';
+// import 'react-clock/dist/Clock.css';
 
 
 // import image
@@ -70,7 +70,6 @@ function Beranda() {
               </a>
             </li>
             </Link>
-
             <li className="active-beranda">
               <a href="beranda.html">
                 <strong>Home</strong>
@@ -84,12 +83,8 @@ function Beranda() {
         <div className="background-home-beranda">
           <div className="ini-time">
             <div className="time">
-              <span className="hms"></span>
-              <span className="ampm"></span>
-              <br></br>
-              <p>Current time:</p>
-              <div style={{ fontSize: "55px", margin: "60px", color: "black" }}>{clockState}</div>
-              <span className="date"></span>
+              <p className="timee">Current time:</p>
+              <div style={{ fontSize: "27px", color: "black", paddingBottom:"60px" }}>{clockState}</div>
             </div>
           </div>
 
@@ -182,7 +177,7 @@ function Beranda() {
 
             <div className="button-wsat-beranda2">
               <button type="submit" className="btn-wsat2-beranda2">
-                    <a href="https://google.com">
+                    <a href="https://www.hotcourses.co.id/study-abroad-info/university-applications/apa-itu-sat/">
                       <strong>Baca Selengkapnya</strong>{" "}
                     </a>
               </button>
@@ -207,7 +202,7 @@ function Beranda() {
           <div className="container-beranda">
             <h1 className="ws3-beranda">
               WeLearn menyediakan 2 fitur menarik nih untuk sobat semuanya !{" "}
-              <br/>Yaitu Fitur WLesson dan WExam
+              <br/>Yaitu Fitur WeLesson dan WExam
             </h1>
             <br/>
             <div className="box-card-beranda">
@@ -222,11 +217,13 @@ function Beranda() {
                         TPS ) dan Test Potensi Akademik ( TPA ) untuk membantu
                         kalian masuk ke Perguruan Tinggi
                       </h2>
+                      <Link to="/home/wsat">
                       <button type="button" className="button-kls7-beranda">
                         <a href="mata-pelajaran-kelas7.html">
                           <strong>Selengkapnya</strong>
                         </a>
                       </button>
+                      </Link>
                     </div>
                   </td>
 
@@ -239,11 +236,13 @@ function Beranda() {
                         serta Test Penjurusan untuk mengenal lebih dalam potensi
                         yang kalian miliki masing-masing
                       </h2>
+                      <Link to="/home/wsat/weexam">
                       <button type="button" className="button-kls8-beranda">
                         <a href="mata-pelajaran-kelas8.html">
                           <strong>Selengkapnya</strong>
                         </a>
                       </button>
+                      </Link>
                     </div>
                   </td>
                 </tr>

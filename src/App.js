@@ -4,6 +4,8 @@ import {
   Route,
 } from "react-router-dom";
 
+import { QuizProvider } from "./contexts/quiz";
+
 // pages
 import Login from "./pages/Login";
 import Beranda from "./pages/Beranda";
@@ -24,6 +26,7 @@ import MateriSma from "./detail-pages-again/MateriSma";
 import WeLesson from "./detail-pages-again/WeLesson";
 import WeExam from "./detail-pages-again/WeExam";
 import Ujian from "./detail-pages-again/Ujian";
+import Game from "./detail-pages-again/Game";
 
 
 //pages detail again2
@@ -43,6 +46,7 @@ import MateriBIndo9 from "./detail-pages-again-3/MateriBIndo9";
 import MateriBIndo10 from "./detail-pages-again-3/MateriBIndo10";
 import MateriBIndo11 from "./detail-pages-again-3/MateriBIndo11";
 import MateriBIndo12 from "./detail-pages-again-3/MateriBIndo12";
+import Quiz from "./detail-pages-again-3/Quiz";
 
 //pages detail again4
 import MateriPageBindo from "./detail-pages-again-4/MateriPageBindo";
@@ -142,6 +146,9 @@ function App() {
         <Route exact path="/home/wsat/weexam/tps">
           <TPS />
         </Route>
+        <Route exact path="/home/wsat/weexam/tps/tryouttps">
+          <Quiz />
+        </Route>
         <Route exact path="/home/wsat/weexam/tpa">
           <TPA />
         </Route>
@@ -160,9 +167,18 @@ function App() {
         <Route exact path="/home/wfresh">
           <WFresh />
         </Route>
+        <Route exact path="/home/wfresh/game">
+          <Game />
+        </Route>
+        
+    <QuizProvider>
+      <Quiz />
+    </QuizProvider>
       </Switch>
       
     </Router>
+
+    
   );
 }
 export default App;

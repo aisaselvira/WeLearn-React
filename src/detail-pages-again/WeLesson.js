@@ -1,63 +1,92 @@
-import React from "react";
-import "../css/style-wemateri.css";
+import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
+import "../css/style-welesson.css";
+import BtnSlider from '../detail-pages-again-4/BtnSlider'
+import dataSlider from '../detail-pages-again-4/dataSlider'
 
-function WeLesson() {
+import welessonlogo from "../img/logo-welessonn.jpeg"
+
+export default function WeLesson() {
+
+    const [slideIndex, setSlideIndex] = useState(1)
+
+    const nextSlide = () => {
+        if(slideIndex !== dataSlider.length){
+            setSlideIndex(slideIndex + 1)
+        } 
+        else if (slideIndex === dataSlider.length){
+            setSlideIndex(1)
+        }
+    }
+
+    const prevSlide = () => {
+        if(slideIndex !== 1){
+            setSlideIndex(slideIndex - 1)
+        }
+        else if (slideIndex === 1){
+            setSlideIndex(dataSlider.length)
+        }
+    }
+
+    const moveDot = index => {
+        setSlideIndex(index)
+    }
+
   return (
     <div className="WeLesson">
-    <h1>tes</h1>
       <header className="header-welesson">
         <div className="container-welesson">
-          <img src="img/welesson-logo.jpg" />
-          <ul>
-            <li>
-              <a href="#tps">TPS</a>
-            </li>
-            <li>
-              <a href="#pu">Penalaran Umum</a>
-            </li>
-            <li>
-              <a href="#pk">Pengetahuan Kuantitatif</a>
-            </li>
-            <li>
-              <a href="#mbm">Memahami Bacaan dan Menulis</a>
-            </li>
-            <li>
-              <a href="#tpa">TPA</a>
-            </li>
-            <li>
-              <a href="#ve">Verbal</a>
-            </li>
-            <li>
-              <a href="#ag">Angka</a>
-            </li>
-            <li>
-              <a href="#lo">Logika</a>
-            </li>
-            <li>
-              <a href="#spa">Spasial</a>
-            </li>
-          </ul>
+          <img className="logo-welesson" src={welessonlogo} alt="Welearn" />
           <label for="check" className="mobile-menu-welesson">
-            <i className="bx bx-menu-welesson" style={{color: "#6e338e"}} ></i>
+            <i className="bx bx-menu-welesson" style={{ color: "#FFFFFF" }} ></i>
           </label>
         </div>
       </header>
 
-      <section id="tps-welesson">
+      <div className="content-welesson">
+          <div className="container-slider2">
+            {dataSlider.map((obj, index) => {
+              return (
+                <div
+                  key={obj.id}
+                  className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
+                >
+                  <img
+                    src={process.env.PUBLIC_URL + `/Imgs/gifimg${index + 1}.gif`}
+                  />
+                </div>
+              )
+            })}
+            <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"} />
+
+            <div className="container-dots">
+              {Array.from({ length: 5 }).map((item, index) => (
+                <div
+                  onClick={() => moveDot(index + 1)}
+                  className={slideIndex === index + 1 ? "dot2 active2" : "dot2"}
+                ></div>
+              ))}
+            </div>
+        </div>
+      </div>
+
+
+      <section className="section-welesson" id="tps-welesson">
         <div className="judul-tps-welesson">
-          <hr color="#0d1679" />
+          <hr color="#FFFFFF" />
           <br />
           <h2 className="namatpstka-welesson">Tes Potensi Skolastik</h2>
           <br />
-          <hr color="#0d1679" />
+          <hr color="#FFFFFF" />
         </div>
       </section>
 
       <div id="all-welesson">
-        <section id="pu-welesson">
+        <section className="section-welesson" id="pu-welesson">
           <div className="container-welesson">
             <div className="judul-pu-welesson">
-              <h3>Penalaran Umum</h3>
+              <h3 className="h3-welesson">Penalaran Umum</h3>
               <p>
                 <p className="judu-welesson">
                   Verbal <br />
@@ -83,26 +112,8 @@ function WeLesson() {
                 </p>
               </p>
               <label for="submit-welesson"></label>
-              <input
-                id="submit-welesson"
-                type="submit"
-                name="submit"
-                value="MULAI BELAJAR"
-              />
-            </div>
-          </div>
-        </section>
-
-        <section id="pk-welesson">
-          <div className="container-welesson">
-            <div className="bar-welesson">
-              <div className="judul-pk-welesson">
-                <h3>Pengetahuan Kuantitatif</h3>
-                <p className="jud-welesson">
-                  Pengetahuan kuantitatif ini mencakup soal barisan bilangan,
-                  geometri, artimetika, hingga aljabar.
-                </p>
-                <label for="submit-welesson"></label>
+              <Link to="/home/wsat/weexam/tps">
+                <div className="button-welesson">
                 <input
                   id="submit-welesson"
                   type="submit"
@@ -110,15 +121,41 @@ function WeLesson() {
                   value="MULAI BELAJAR"
                 />
               </div>
+            </Link>
             </div>
           </div>
         </section>
 
-        <section id="mbm-welesson">
+        <section className="section-welesson" id="pk-welesson">
+          <div className="container-welesson">
+            <div className="bar-welesson">
+              <div className="judul-pk-welesson">
+                <h3 className="h3-welesson">Pengetahuan Kuantitatif</h3>
+                <p className="jud-welesson">
+                  Pengetahuan kuantitatif ini mencakup soal barisan bilangan,
+                  geometri, artimetika, hingga aljabar.
+                </p>
+                <label for="submit-welesson"></label>
+              <Link to="/home/wsat/weexam/tps">
+                <div className="button-welesson">
+                <input
+                  id="submit-welesson"
+                  type="submit"
+                  name="submit"
+                  value="MULAI BELAJAR"
+                />
+              </div>
+            </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-welesson" id="mbm-welesson">
           <div className="container-welesson">
             <div className="bar-welesson">
               <div className="judul-mbm-welesson">
-                <h3>Memahami Bacaan dan Menulis</h3>
+                <h3 className="h3-welesson">Memahami Bacaan dan Menulis</h3>
                 <p className="jud-welesson">
                   Menguji kemampuan bahasa kamu. Materi ini akan fokus pada
                   “teknik” dalam bahasa Indonesia. Lewat materi ini, kamu
@@ -127,6 +164,9 @@ function WeLesson() {
                   benar.
                 </p>
                 <label className="labell-welesson" for="submit"></label>
+              <div className="button-welesson">
+              <Link to="/home/wsat/weexam/tps">
+                <div className="button-welesson">
                 <input
                   id="submit-welesson"
                   type="submit"
@@ -134,26 +174,29 @@ function WeLesson() {
                   value="MULAI BELAJAR"
                 />
               </div>
+            </Link>
+            </div>
+              </div>
             </div>
           </div>
         </section>
       </div>
 
-      <section id="tpa-welesson">
+      <section className="section-welesson" id="tpa-welesson">
         <div className="judul-tpa-welesson">
-          <hr color="#0d1679" />
+          <hr color="#FFFFFF" />
           <br />
-          <h2 className="namatpstka-welesson">Tes Kemampuan Akademik</h2>
+          <h2 className="namatpstka-welesson">Tes Potensi Akademik</h2>
           <br />
-          <hr color="#0d1679" />
+          <hr color="#FFFFFF" />
         </div>
       </section>
 
-      <section id="ve-welesson">
+      <section className="section-welesson" id="ve-welesson">
         <div className="container-welesson">
           <div className="bar-welesson">
             <div className="judul-ve-welesson">
-              <h3>Verbal</h3>
+              <h3 className="h3-welesson">Verbal</h3>
               <p className="jud-welesson">
                 Tes verbal berfungsi untuk mengukur kecerdasan seseorang dalam
                 kata-kata dan bahasa.Beberapa bentuk soal tes verbal antara lain
@@ -161,22 +204,28 @@ function WeLesson() {
                 kata, dan pengelompokan kata.
               </p>
               <label className="labell-welesson" for="submit"></label>
-              <input
-                id="submit"
-                type="submit"
-                name="submit"
-                value="MULAI BELAJAR"
-              />
+              <div className="button-welesson">
+              <Link to="/home/wsat/weexam/tpa">
+                <div className="button-welesson">
+                <input
+                  id="submit-welesson"
+                  type="submit"
+                  name="submit"
+                  value="MULAI BELAJAR"
+                />
+              </div>
+            </Link>
             </div>
           </div>
         </div>
+        </div>
       </section>
 
-      <section id="ag-welesson">
+      <section className="section-welesson" id="ag-welesson">
         <div className="container-welesson">
           <div className="bar-welesson">
             <div className="judul-ag-welesson">
-              <h3>Angka</h3>
+              <h3 className="h3-welesson">Angka</h3>
               <p className="jud-welesson">
                 Jenis psikotes kerja yang satu ini berfungsi untuk mengukur
                 kecerdasan seseorang dalam bidang angka. Tes ini akan mengukur
@@ -185,22 +234,28 @@ function WeLesson() {
                 angka, seri huruf, logika angka, dan angka dalam cerita.
               </p>
               <label className="labell-welesson" for="submit"></label>
-              <input
-                id="submit-welesson"
-                type="submit"
-                name="submit"
-                value="MULAI BELAJAR"
-              />
+              <div className="button-welesson">
+              <Link to="/home/wsat/weexam/tpa">
+                <div className="button-welesson">
+                <input
+                  id="submit-welesson"
+                  type="submit"
+                  name="submit"
+                  value="MULAI BELAJAR"
+                />
+              </div>
+            </Link>
+            </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="lo-welesson">
+      <section className="section-welesson" id="lo-welesson">
         <div className="container-welesson">
           <div className="bar-welesson">
             <div className="judul-lo-welesson">
-              <h3>Logika</h3>
+              <h3 className="h3-welesson">Logika</h3>
               <p className="jud-welesson">
                 Tes logika berfungsi untuk mengukur kemampuan seseorang dalam
                 penalaran dan pemecahan masalah secara logis atau masuk akal.
@@ -210,22 +265,28 @@ function WeLesson() {
                 dan logika diagram.
               </p>
               <label className="labell-welesson" for="submit"></label>
-              <input
-                id="submit-welesson"
-                type="submit"
-                name="submit"
-                value="MULAI BELAJAR"
-              />
+              <div className="button-welesson">
+              <Link to="/home/wsat/weexam/tpa">
+                <div className="button-welesson">
+                <input
+                  id="submit-welesson"
+                  type="submit"
+                  name="submit"
+                  value="MULAI BELAJAR"
+                />
+              </div>
+            </Link>
+            </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="sp-welesson">
+      <section className="section-welesson" id="sp-welesson">
         <div className="container-welesson">
           <div className="bar-welesson">
             <div className="judul-sp-welesson">
-              <h3>Spasial</h3>
+              <h3 className="h3-welesson">Spasial</h3>
               <p className="jud-welesson">
                 Tes ini berfungsi untuk mengukur daya logika ruang seseorang.
                 Beberapa bentuk soal tes spasial atau gambar antara lain padanan
@@ -233,18 +294,22 @@ function WeLesson() {
                 gambar, dan identifikasi gambar.
               </p>
               <label className="labell-welesson" for="submit"></label>
-              <input
-                id="submit-welesson"
-                type="submit"
-                name="submit"
-                value="MULAI BELAJAR"
-              />
+              <div className="button-welesson">
+              <Link to="/home/wsat/weexam/tpa">
+                <div className="button-welesson">
+                <input
+                  id="submit-welesson"
+                  type="submit"
+                  name="submit"
+                  value="MULAI BELAJAR"
+                />
+              </div>
+            </Link>
+            </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }
-
-export default WeLesson;
