@@ -18,9 +18,9 @@
   width: 100%;
   height: 30px;
 }
-.left-area-ujian .span-area-ujian {
+.left-area-ujian {
   color: white;
-  padding: 50px;
+  padding: 20px;
   text-align: center;
   font-size: 24px;
 }
@@ -113,7 +113,7 @@
 .content-ujian {
   padding-bottom: 35px;
   padding-top: 100px;
-  margin-left: 250px;
+  margin-left: 250px !important;
   transition: 0.5s;
   background-color: rgb(210, 205, 255);
 }
@@ -141,16 +141,23 @@
 #check-ujian {
   display: none;
 }
-.boxx-colom-ujian {
-  padding: 40px;
-}
+/* .boxx-colom-ujian {
+  padding: 2%;
+} */
 .box-colom-ujian {
   padding: 30px;
-  width: 960px;
+  
+  width: 100%;
   height: 280px;
   background-color: white;
   border-radius: 30px;
+  margin: 30px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-end; */
 }
+
 .ini-colom1-ujian {
   padding: 20px;
 }
@@ -159,6 +166,7 @@
 }
 .colom1-ujian {
   padding: 30px;
+  margin: 0px !important;
   width: 570px;
   height: 35px;
   background-color: rgb(58, 53, 68);
@@ -245,8 +253,15 @@
 }
 .gif-ujian {
   float: right;
-  width: 270px;
-  height: 310px;
-  padding-right: 60px;
-  padding-top: 70px;
+  width: 60%;
+  /* height: 310px; */
+  /* padding-right: 60px;
+  padding-top: 70px; */
+}
+
+.gif-box{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
 }
