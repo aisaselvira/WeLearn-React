@@ -26,7 +26,7 @@ const End = ({ results, data, onReset, onAnswersCheck, time }) => {
           <p className="waktu-anda"><strong>Waktu Anda:</strong> {formatTime(time)}</p>
           
           <div className="ini-button-quiz">
-            <button className="button-quiz3 is-info mr-2" onClick={onAnswersCheck}>Check Jawaban Anda</button><br/>
+            <button className="button-quiz3 is-info mr-2" onClick={onAnswersCheck}>Check Jawaban Anda</button>
           </div>
           <div className="ini-button-quiz">
             <button className="button-quiz3 is-success" onClick={onReset}>Coba Lagi</button>
