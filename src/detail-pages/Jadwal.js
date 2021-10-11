@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/style-mapel.css";
+import "../css/style-jadwal.css";
 
 function Jadwal() {
   return (

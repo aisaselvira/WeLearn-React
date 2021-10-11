@@ -3,10 +3,13 @@
   margin: 0;
   font-family: 'Quicksand', sans-serif;
 }
+.Ujian{
+  overflow: hidden;
+}
 .header-materi-ujian {
   position: fixed;
   background-color: rgb(210, 205, 255);
-  padding: 20px;
+  padding-top: 2%;
   width: 100%;
   height: 30px;
   float: right;
@@ -26,7 +29,6 @@
 }
 .right-area-ujian {
   padding-top: 2rem;
-  padding-right: 1rem;
 }
 .sidebar-ujian {
   background: #1d3a67;

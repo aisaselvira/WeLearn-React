@@ -30,9 +30,11 @@ function MateriBIndo7() {
       </center>
       <ul>
         <li className="active-2-materi text-decoration-materi">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7">
           <a href="beranda-materi-bindo.html"
             ><i className="fas fa-desktop"></i><span>Beranda Materi</span>
           </a>
+          </Link>
         </li>
         <li className="text-decoration-materi">
           <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">

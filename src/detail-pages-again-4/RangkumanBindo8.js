@@ -56,28 +56,28 @@ export default function RangkumanBindo() {
             </center>
                   <ul>
                         <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8">
                             <a href="beranda-materi-bindo.html"><i className="fas fa-desktop"></i><span>Beranda Materi</span>
                             </a>
                         </Link>
                         </li>
                         <li className="text-decoration-materi">
-                              <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
+                              <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/materipagebindo8">
                                     <a href="materi-pembelajaran-indo.html"><i className="fas fa-book"></i><span>Materi</span></a>
                               </Link>
                         </li>
                         <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/videomateribindo8">
                         <a href="video-materi.html"><i className="fas fa-video"></i><span>Video Materi</span></a>
                         </Link>
                         </li>
                         <li className="active-2-materi text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/rangkumanbindo8">
                               <a href="rangkuman-materi-bindo.html"><i className="fas fa-file-word"></i><span>Rangkuman Materi</span></a>
                         </Link>
                         </li>
                         <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/quizbindo8">
                             <a href="quiz1.html"><i className="fas fa-comment-dots"></i><span>Quiz Cepat</span></a>
                         </Link>
                         </li>

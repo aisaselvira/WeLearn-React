@@ -2,76 +2,83 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import "../css/style-wemateri.css";
 
+import wavewemateri from "../img/wave-wemater.jpeg"
+import giff5 from "../img/giff5.gif"
+import hm3 from "../img/hm3.png"
+import hm from "../img/hm.jpg"
+import hm1 from "../img/hm1.jpg"
+import giff17 from "../img/giff17.gif"
+
 function MateriSma() {
   return (
     <div className="MateriSma">
-    <section id="banner">
+    <section id="banner-wemateri">
             <header>
-                  <div class="container">
-                        <img src="img/wave-wemater.jpeg"/>
-            </div>
+                  <div className="container-wemateri">
+                        <img className="logo-wemateri" src={wavewemateri} alt="Welearn"/>  
+                  </div>
             </header>
       </section>
 
-      <div class="banner-left2">
-            <div class="container">
-                  <img src="img/giff5.gif"/>
-                        <div class="text-banner-smp">
-                              <h1>Materi Untuk Siswa / Siswi SMA / SMK </h1><br/>
-                                    <div class="box-h3">
-                                          <h3><strong>Selamat Belajar!</strong></h3>
-                                    </div>
-                        </div>
+      <div className="banner-left2-wemateri">
+            <div className="container-wemateri">
+                  <img className="gb-wemateri4" src={giff5} alt="Welearn"/>  
+                  <div className="text-banner-smp-wemateri">
+                        <h1>Materi Untuk Siswa / Siswi SMA / SMK </h1><br/>
+                              <div className="box-h3-wemateri">
+                                    <h3><strong>Selamat Belajar!</strong></h3>
+                              </div>
+                  </div>
             </div>
       </div>
 
-      <div class="card3">
+      <div className="card3-wemateri">
             <table>
                   <tr>
                         <td>
-                              <div class="box-kls7">
-                                    <img class="kls7" src="img/hm3.png"/>
+                              <div className="box-kls7-wemateri">
+                                    <img className="kls7-wemateri" src={hm3} alt="Welearn"/>  
                                     <Link to="/home/wemateri/materisma/mapelkelas10">
-                                    <button type="button" class="button-kls7"><a href="mata-pelajaran-kelas10.html"><strong>Belajar Sekarang</strong></a></button>
+                                    <button type="button" className="button-kls7-wemateri"><a href="mata-pelajaran-kelas7.html"><strong>Belajar Sekarang</strong></a></button>
                                     </Link>
-                                          <h1 class="text-kls">Materi Kelas 10</h1>
-                                          <h2 class="text-kls2">Klik belajar sekarang untuk mendapatkan materi kelas 10 secara gratis</h2>
+                                          <h1 className="text-kls-wemateri">Materi Kelas 10</h1>
+                                          <h2 className="text-kls2-wemateri">Klik belajar sekarang untuk mendapatkan materi kelas 10 secara gratis</h2>
                               </div>
                         </td>
             
 
                         <td>
-                              <div class="box-kls8">
-                                    <img class="kls8" src="img/hm.jpg"/>
+                              <div className="box-kls8-wemateri">
+                                    <img className="kls8-wemateri" src={hm} alt="Welearn"/>  
                                     <Link to="/home/wemateri/materisma/mapelkelas11">
-                                    <button type="button" class="button-kls8"><a href="mata-pelajaran-kelas11.html"><strong>Belajar Sekarang</strong></a></button>
+                                    <button type="button" className="button-kls8-wemateri"><a href="mata-pelajaran-kelas8.html"><strong>Belajar Sekarang</strong></a></button>
                                     </Link>
-                                          <h1 class="text-kls">Materi Kelas 11</h1>
-                                          <h2 class="text-kls2">Klik belajar sekarang untuk mendapatkan materi kelas 11 secara gratis</h2>
+                                          <h1 className="text-kls-wemateri">Materi Kelas 11</h1>
+                                          <h2 className="text-kls2-wemateri">Klik belajar sekarang untuk mendapatkan materi kelas 11 secara gratis</h2>
                               </div>
                         </td>
 
                         <td>
-                              <div class="box-kls9">
-                                    <img class="kls9" src="img/hm1.jpg"/>
+                              <div className="box-kls9-wemateri">
+                                    <img className="kls9-wemateri" src={hm1} alt="Welearn"/>  
                                     <Link to="/home/wemateri/materisma/mapelkelas12">
-                                    <button type="button" class="button-kls9"><a href="mata-pelajaran-kelas12.html"><strong>Belajar Sekarang</strong></a></button>
+                                    <button type="button" className="button-kls9-wemateri"><a href="mata-pelajaran-kelas9.html"><strong>Belajar Sekarang</strong></a></button>
                                     </Link>
-                                          <h1 class="text-kls">Materi Kelas 12</h1>
-                                          <h2 class="text-kls2">Klik belajar sekarang untuk mendapatkan materi kelas 12 secara gratis</h2>
+                                          <h1 className="text-kls-wemateri">Materi Kelas 12</h1>
+                                          <h2 className="text-kls2-wemateri">Klik belajar sekarang untuk mendapatkan materi kelas 12 secara gratis</h2>
                               </div>
                         </td>
                   </tr>
             </table>
       </div>
 
-      <div class="banner-right">
-            <div class="container">
-                  <img src="img/giff17.gif"/>
-                        <div class="text-banner-smp-right">
-                              <h1>“Be fearless, walau ada rintangan, <br/>kita pasti bisa melewati itu semua apa pun hambatannya.”</h1><br/>
-                              <h3><strong>-Nadiem Makarim</strong></h3>
-                        </div>
+      <div className="banner-right-wemateri">
+            <div className="container-wemateri">
+                  <img className="gb-wemateri4" src={giff17} alt="Welearn"/> 
+                  <div className="text-banner-smp-right-wemateri">
+                        <h1>“Be fearless, walau ada rintangan, <br/>kita pasti bisa melewati itu semua apa pun hambatannya.”</h1><br/>
+                        <h3><strong>-Nadiem Makarim</strong></h3>
+                  </div>
             </div>
       </div>
 

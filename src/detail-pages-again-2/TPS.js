@@ -10,7 +10,11 @@ function TPS() {
   return (
     <div className="TPS">
       <h1 class="judultpstka">
-            <div><a href="WeExam.html" class="log-out-tpstpa">Back</a></div>
+            <Link to="/home/wsat/weexam">
+            <div>
+                  <a href="WeExam.html" class="log-out-tpstpa">Back</a>
+            </div>
+            </Link>
             Tes Pengetahuan Skolastik
       </h1>
               <hr color="rgb(0, 67, 155)" />

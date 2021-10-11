@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "../css/style-tpstka.css";
 
 import gbtpa1 from "../img/daftar.png"
@@ -10,7 +11,11 @@ function TPA() {
   return (
     <div className="TPA">
       <h1 class="judultpstka">
-            <div><a href="WeExam.html" class="log-out-tpstpa">Back</a></div>
+            <Link to="/home/wsat/weexam">
+            <div>
+                  <a href="WeExam.html" class="log-out-tpstpa">Back</a>
+            </div>
+            </Link>
             Tes Potensi Akademik
       </h1>
               

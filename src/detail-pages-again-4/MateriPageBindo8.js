@@ -6,7 +6,7 @@ import "../css/style-materi-detail.css";
 
 import cw from "../img/cw.jpeg"
 
-export default function RangkumanBindo() {
+export default function MateriPageBindo8() {
 
     const [slideIndex, setSlideIndex] = useState(1)
 
@@ -33,7 +33,7 @@ export default function RangkumanBindo() {
     }
       
   return (
-      <div className="MateriPageBindo">
+      <div className="MateriPageBindo8">
            <input type="checkbox" id="check-materi"/>
             <header className="header-materi">
                         <label className="label-materi" for="check">
@@ -41,11 +41,11 @@ export default function RangkumanBindo() {
                         </label>
 
                 <div className="left-area-materi">
-                  <h3 className="h3-left-area">BAHASA <span className="span-left-area">INDONESIA</span>
+                    <h3 className="h3-left-area">BAHASA <span className="span-left-area">INDONESIA</span>
                         <Link to="/home">
-                              <a href="beranda.html" class="log-out-materi">Keluar</a>
+                            <a href="beranda.html" class="log-out-materi">Keluar</a>
                         </Link>
-                  </h3>
+                    </h3>
                 </div>
             </header>
 
@@ -56,28 +56,27 @@ export default function RangkumanBindo() {
             </center>
                   <ul>
                         <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7">
-                            <a href="beranda-materi-bindo.html"><i className="fas fa-desktop"></i><span>Beranda Materi</span>
-                            </a>
-                        </Link>
-                        </li>
-                        <li className="text-decoration-materi">
-                              <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
-                                    <a href="materi-pembelajaran-indo.html"><i className="fas fa-book"></i><span>Materi</span></a>
-                              </Link>
-                        </li>
-                        <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
-                        <a href="video-materi.html"><i className="fas fa-video"></i><span>Video Materi</span></a>
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8">
+                            <a href="beranda-materi-bindo.html"><i className="fas fa-desktop"></i><span>Beranda Materi</span></a>
                         </Link>
                         </li>
                         <li className="active-2-materi text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/materipagebindo8">
+                            <a href="materi-pembelajaran-indo.html"><i className="fas fa-book"></i><span>Materi</span></a>
+                        </Link>
+                        </li>
+                        <li className="text-decoration-materi">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/videomateribindo8">
+                        <a href="video-materi.html"><i className="fas fa-video"></i><span>Video Materi</span></a>
+                        </Link>
+                        </li>
+                        <li className="text-decoration-materi">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/rangkumanbindo8">
                               <a href="rangkuman-materi-bindo.html"><i className="fas fa-file-word"></i><span>Rangkuman Materi</span></a>
                         </Link>
                         </li>
                         <li className="text-decoration-materi">
-                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
+                        <Link to="/home/wemateri/materismp/mapelkelas8/materibindo8/quizbindo8">
                             <a href="quiz1.html"><i className="fas fa-comment-dots"></i><span>Quiz Cepat</span></a>
                         </Link>
                         </li>
@@ -94,7 +93,7 @@ export default function RangkumanBindo() {
                     className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img 
-                        src={process.env.PUBLIC_URL + `/Imgs/imgg${index + 1}.png`} 
+                        src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.png`} 
                         />
                     </div>
                 )

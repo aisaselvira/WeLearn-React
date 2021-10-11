@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "../css/style-ujian.css";
 
 import studentujian from "../img/student.png";
@@ -16,9 +17,11 @@ function Ujian() {
             </label>
 
             <div className="right-area">
+              <Link to="/home">
               <a href="beranda.html" className="log-out-ujian">
                 Back
               </a>
+              </Link>
             </div>
           </div>
         </header>

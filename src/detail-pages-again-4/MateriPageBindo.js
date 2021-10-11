@@ -55,7 +55,11 @@ export default function MateriPageBindo() {
                   <h4>Siswa</h4>
             </center>
                   <ul>
-                        <li className="text-decoration-materi"><a href="beranda-materi-bindo.html"><i className="fas fa-desktop"></i><span>Beranda Materi</span></a></li>
+                        <li className="text-decoration-materi">
+                        <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7">
+                            <a href="beranda-materi-bindo.html"><i className="fas fa-desktop"></i><span>Beranda Materi</span></a>
+                        </Link>
+                        </li>
                         <li className="active-2-materi text-decoration-materi">
                         <Link to="/home/wemateri/materismp/mapelkelas7/materibindo7/materipagebindo">
                             <a href="materi-pembelajaran-indo.html"><i className="fas fa-book"></i><span>Materi</span></a>
