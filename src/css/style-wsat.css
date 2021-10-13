@@ -55,7 +55,6 @@
   flex-basis: 40%;
   padding: 10% 5%;
   background: white;
-  opacity: 70%;
   position: relative;
 }
 .right-col-wsat h1 {
@@ -69,7 +68,6 @@
   bottom: 0;
   width: 100%;
   height: 500px;
-  z-index: -100;
 }
 .left-container-wsat {
   display: flex;
