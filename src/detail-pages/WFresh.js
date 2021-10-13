@@ -208,7 +208,7 @@ function WFresh() {
 
               <div className="game-wfresh2">
                     <img className="gbwfresh2" src={gbwfresh2} alt="Welearn" />
-                    <h1 className="h1-text-wfresh2">W-Fresh juga menyediakan mini game loh . . .</h1>
+                    <h1 className="h1-text-wfresh2">Apasih mini gamenya yang ada ? </h1>
                     <div className="btn-wfresh3">
                         <button type="button" id="submit-wfresh3"><a href="https://skribbl.io/"><strong>Yuk Coba Sekarang !</strong></a></button>
                     </div> 
