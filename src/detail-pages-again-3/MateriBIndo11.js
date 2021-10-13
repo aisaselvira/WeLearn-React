@@ -26,7 +26,7 @@ function MateriBIndo11() {
     <div className="sidebar-materi">
       <center>
         <img className="profile-img-materi" src={cw} alt="Welearn"/>
-        <h4>Siswa123</h4>
+        <h4>Siswa</h4>
       </center>
       <ul>
         <li className="active-2-materi text-decoration-materi">

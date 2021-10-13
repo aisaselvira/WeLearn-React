@@ -27,6 +27,7 @@ import WeLesson from "./detail-pages-again/WeLesson";
 import WeExam from "./detail-pages-again/WeExam";
 import Ujian from "./detail-pages-again/Ujian";
 import Game from "./detail-pages-again/Game";
+import GameCard from "./detail-pages-again/GameCard";
 
 
 //pages detail again2
@@ -40,6 +41,9 @@ import TPS from "./detail-pages-again-2/TPS";
 import TPA from "./detail-pages-again-2/TPA";
 
 //pages detail again3
+import MateriMtk from "./detail-pages-again-3/MateriMtk";
+import MateriKimia from "./detail-pages-again-3/MateriKimia";
+import MateriFisika from "./detail-pages-again-3/MateriFisika";
 import MateriBIndo7 from "./detail-pages-again-3/MateriBIndo7";
 import MateriBIndo8 from "./detail-pages-again-3/MateriBIndo8";
 import MateriBIndo9 from "./detail-pages-again-3/MateriBIndo9";
@@ -50,13 +54,41 @@ import Quiz from "./detail-pages-again-3/Quiz";
 
 //pages detail again4
 import MateriPageBindo from "./detail-pages-again-4/MateriPageBindo";
+import MateriPageMtk from "./detail-pages-again-4/MateriPageMtk";
+import MateriPageKimia from "./detail-pages-again-4/MateriPageKimia";
+import MateriPageFisika from "./detail-pages-again-4/MateriPageFisika";
+import MateriPageBindo8 from "./detail-pages-again-4/MateriPageBindo8";
+import MateriPageBindo9 from "./detail-pages-again-4/MateriPageBindo9";
+import MateriPageBindo10 from "./detail-pages-again-4/MateriPageBindo10";
+import MateriPageBindo11 from "./detail-pages-again-4/MateriPageBindo11";
+import MateriPageBindo12 from "./detail-pages-again-4/MateriPageBindo12";
 import QuizBindo from "./detail-pages-again-4/QuizBindo";
-import VideoMateriBindo from "./detail-pages-again-4/VideoMateriBindo";
-import RangkumanBindo from "./detail-pages-again-4/RangkumanBindo";
-import MateriPageBindo8 from "./detail-pages-again-4/MateriPageBindo";
+import QuizMtk from "./detail-pages-again-4/QuizMtk";
+import QuizKimia from "./detail-pages-again-4/QuizKimia";
 import QuizBindo8 from "./detail-pages-again-4/QuizBindo";
-import VideoMateriBindo8 from "./detail-pages-again-4/VideoMateriBindo";
-import RangkumanBindo8 from "./detail-pages-again-4/RangkumanBindo";
+import QuizBindo9 from "./detail-pages-again-4/QuizBindo";
+import QuizBindo10 from "./detail-pages-again-4/QuizBindo";
+import QuizBindo11 from "./detail-pages-again-4/QuizBindo";
+import QuizBindo12 from "./detail-pages-again-4/QuizBindo";
+import QuizFisika from "./detail-pages-again-4/QuizFisika";
+import VideoMateriBindo from "./detail-pages-again-4/VideoMateriBindo";
+import VideoMateriMtk from "./detail-pages-again-4/VideoMateriMtk";
+import VideoMateriKimia from "./detail-pages-again-4/VideoMateriKimia";
+import VideoMateriFisika from "./detail-pages-again-4/VideoMateriFisika";
+import VideoMateriBindo8 from "./detail-pages-again-4/VideoMateriBindo8";
+import VideoMateriBindo9 from "./detail-pages-again-4/VideoMateriBindo9";
+import VideoMateriBindo10 from "./detail-pages-again-4/VideoMateriBindo10";
+import VideoMateriBindo11 from "./detail-pages-again-4/VideoMateriBindo11";
+import VideoMateriBindo12 from "./detail-pages-again-4/VideoMateriBindo12";
+import RangkumanMtkk from "./detail-pages-again-4/RangkumanMtkk";
+import RangkumanKimia from "./detail-pages-again-4/RangkumanKimia";
+import RangkumanBindo from "./detail-pages-again-4/RangkumanBindo";
+import RangkumanBindo8 from "./detail-pages-again-4/RangkumanBindo8";
+import RangkumanBindo9 from "./detail-pages-again-4/RangkumanBindo9";
+import RangkumanBindo10 from "./detail-pages-again-4/RangkumanBindo10";
+import RangkumanBindo11 from "./detail-pages-again-4/RangkumanBindo11";
+import RangkumanBindo12 from "./detail-pages-again-4/RangkumanBindo12";
+import RangkumanFisika from "./detail-pages-again-4/RangkumanFisika";
 
 // pages css
 import "./css/style-login.css";
@@ -108,6 +140,51 @@ function App() {
         <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/quizbindo">
           <QuizBindo />
         </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materimtk">
+          <MateriMtk />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materimtk/materipagemtk">
+          <MateriPageMtk />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materimtk/videomaterimtk">
+          <VideoMateriMtk />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materimtk/rangkumanmtk">
+          <RangkumanMtkk />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materimtk/quizmtk">
+          <QuizMtk />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materikimia">
+          <MateriKimia />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materikimia/materipagekimia">
+          <MateriPageKimia />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materikimia/videomaterikimia">
+          <VideoMateriKimia />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materikimia/rangkumankimia">
+          <RangkumanKimia />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materikimia/quizkimia">
+          <QuizKimia />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materifisika">
+          <MateriFisika />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materifisika/materipagefisika">
+          <MateriPageFisika />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materifisika/videomaterifisika">
+          <VideoMateriFisika />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materifisika/rangkumanfisika">
+          <RangkumanFisika />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas7/materifisika/quizfisika">
+          <QuizFisika />
+        </Route>
         <Route exact path="/home">
           <ButtonBack />
         </Route>
@@ -129,20 +206,68 @@ function App() {
         <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9">
           <MateriBIndo9 />
         </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9/materipagebindo9">
+          <MateriPageBindo9 />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9/videomateribindo9">
+          <VideoMateriBindo9 />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9/rangkumanbindo9">
+          <RangkumanBindo9 />
+        </Route>
+        <Route exact path="/home/wemateri/materismp/mapelkelas9/materibindo9/quizbindo9">
+          <QuizBindo9 />
+        </Route>
         <Route exact path="/home/wemateri/materisma">
           <MateriSma />
         </Route>
         <Route exact path="/home/wemateri/materisma/mapelkelas10">
           <MapelKelas10 />
         </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10">
+          <MateriBIndo10 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10/materipagebindo10">
+          <MateriPageBindo10 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10/videomateribindo10">
+          <VideoMateriBindo10 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10/rangkumanbindo10">
+          <RangkumanBindo10 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10/quizbindo10">
+          <QuizBindo10 />
+        </Route>
         <Route exact path="/home/wemateri/materisma/mapelkelas11">
           <MapelKelas11 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11/materipagebindo11">
+          <MateriPageBindo11 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11/videomateribindo11">
+          <VideoMateriBindo11 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11/rangkumanbindo11">
+          <RangkumanBindo11 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11/quizbindo11">
+          <QuizBindo11 />
         </Route>
         <Route exact path="/home/wemateri/materisma/mapelkelas12">
           <MapelKelas12 />
         </Route>
-        <Route exact path="/home/wemateri/materisma/mapelkelas10/materibindo10">
-          <MateriBIndo10 />
+        <Route exact path="/home/wemateri/materisma/mapelkelas12/materibindo12/materipagebindo12">
+          <MateriPageBindo12 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas12/materibindo12/videomateribindo12">
+          <VideoMateriBindo12 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas12/materibindo12/rangkumanbindo12">
+          <RangkumanBindo12 />
+        </Route>
+        <Route exact path="/home/wemateri/materisma/mapelkelas12/materibindo12/quizbindo12">
+          <QuizBindo12 />
         </Route>
         <Route exact path="/home/wemateri/materisma/mapelkelas11/materibindo11">
           <MateriBIndo11 />
@@ -186,7 +311,9 @@ function App() {
         <Route exact path="/home/wfresh/game">
           <Game />
         </Route>
-        
+        <Route exact path="/home/wfresh/gamecard">
+          <GameCard />
+        </Route>
     <QuizProvider>
       <Quiz />
     </QuizProvider>

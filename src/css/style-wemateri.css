@@ -226,10 +226,10 @@ a{
     background-color: rgb(80, 79, 186);
 }
 .card3-wemateri{
-    padding-top: 4rem;
-    padding-right: 7rem;
-    background-color: rgb(208, 188, 253);
+    background-color: rgb(239, 232, 255);
     height: 700px;
+    display: flex;
+    justify-content: center;
 }
 .card3-wemateri table {
   float: right;

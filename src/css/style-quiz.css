@@ -91,13 +91,20 @@ label.radio input {
 .radio{
   background-color: rgb(211, 211, 211);
   border-radius: 10px;
-  padding: 10px;
+  padding: 30px;
+}
+.radio-quizz{
+  padding: 2%;
 }
 .radio:active{
   background-color: rgb(109, 64, 80);
   color: white;
 }
 .radio:hover{
+  background-color: rgb(109, 64, 80);
+  color: white;
+}
+.radio:active:after{
   background-color: rgb(109, 64, 80);
   color: white;
 }

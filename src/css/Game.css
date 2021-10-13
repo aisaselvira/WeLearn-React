@@ -1,7 +1,14 @@
 
-main{
+.tictactoe{
+  padding: 15%;
+  background-color: rgb(50, 41, 100);
+  display: flex;
+  justify-content: center;
+}
+.Game{
   width: 300px;
   margin: 50px auto 0;
+  background-color: rgb(194, 198, 255);
 }
 div.board{
   display: grid;
@@ -22,8 +29,8 @@ div.result{
   padding: 10px;
 }
 div.result.green{
-  background-color: #5a5;
+  background-color: rgb(208, 183, 255);
 }
 div.result.red{
-  background-color: #a55;
+  background-color: rgb(255, 186, 224);
 }

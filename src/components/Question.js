@@ -39,10 +39,12 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
           <h2 className="mb-5">{data.question}</h2>
           <div className="control" ref={radiosWrapper}>
             {data.choices.map((choice, i) => (
+              <div className="radio-quizz">
               <label className="radio has-background-light" key={i}>
                 <input type="radio" name="answer" value={choice} onChange={changeHandler} />
                 {choice}
               </label>
+              </div>
             ))}
           </div>
           {error && <div className="has-text-danger">{error}</div>}

@@ -24,17 +24,21 @@ function TPA() {
                 <div class="about-col1-tpstpa">
                     <p><strong>Verbal</strong></p>
                     <img className="gb-tps" src={gbtpa1} alt="Welearn"/>
+                    <Link to="/home/wsat/weexam/tpa/tryouttps">
                     <div className="btn-tpa">
                     <button type="button" id="submit-tpstpa2"><a href=""><strong>Try Out</strong></a></button>
                     </div>
+                    </Link>
               </div>
   
               <div class="about-col1-tpstpa">
                     <p><strong>Angka</strong></p>
                     <img className="gb-tps" src={gbtpa2} alt="Welearn"/>
+                     <Link to="/home/wsat/weexam/tpa/tryouttps">
                      <div className="btn-tpa">
                         <button type="button" id="submit-tpstpa2"><a href=""><strong>Try Out</strong></a></button>
                     </div>
+                    </Link>
               </div>
             </div>
     </div>
@@ -44,17 +48,21 @@ function TPA() {
                 <div class="about-col2-tpstpa">
                     <p><strong>Logika</strong></p>
                     <img className="gb-tps" src={gbtpa3} alt="Welearn"/>
+                    <Link to="/home/wsat/weexam/tpa/tryouttps">
                     <div className="btn-tpa">
                         <button type="button" id="submit-tpstpa2"><a href=""><strong>Try Out</strong></a></button>
                     </div>
+                    </Link>
               </div>
   
               <div class="about-col2-tpstpa">
                   <p><strong>Spasial</strong></p>
                   <img className="gb-tps" src={gbtpa4} alt="Welearn"/>
+                  <Link to="/home/wsat/weexam/tpa/tryouttps">
                   <div className="btn-tpa">
                         <button type="button" id="submit-tpstpa2"><a href=""><strong>Try Out</strong></a></button>
                   </div>
+                  </Link>
             </div>
             </div>
            </div>

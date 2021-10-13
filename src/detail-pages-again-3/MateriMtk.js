@@ -5,9 +5,9 @@ import "../css/style-materi-detail.css";
 import cw from "../img/cw.jpeg"
 import imgberandamateri from "../img/5.jpeg"
 
-function MateriBIndo9() {
+function MateriMtk() {
   return (
-    <div className="MateriBIndo9">
+    <div className="MateriBIndo7">
     <input type="checkbox" id="check-materi" />
     <header className="header-materi">
       <label className="label-materi" for="check">
@@ -15,7 +15,7 @@ function MateriBIndo9() {
       </label>
 
       <div className="left-area-materi">
-          <h3 className="h3-left-area">BAHASA <span className="span-left-area">INDONESIA</span>
+          <h3 className="h3-left-area">MATEMATIKA
                 <Link to="/home">
                 <a href="beranda.html" class="log-out-materi">Keluar</a>
               </Link>
@@ -30,35 +30,35 @@ function MateriBIndo9() {
       </center>
       <ul>
         <li className="active-2-materi text-decoration-materi">
-          <Link to="/home/wemateri/materismp/mapelkelas9/materibindo9">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk">
           <a href="beranda-materi-bindo.html"
             ><i className="fas fa-desktop"></i><span>Beranda Materi</span>
           </a>
           </Link>
         </li>
         <li className="text-decoration-materi">
-          <Link to="/home/wemateri/materismp/mapelkelas9/materibindo9/materipagebindo9">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk/materipagemtk">
           <a href="materi-pembelajaran-indo.html"
             ><i className="fas fa-book"></i><span>Materi</span>
           </a>
           </Link>
         </li>
         <li className="text-decoration-materi">
-          <Link to="/home/wemateri/materismp/mapelkelas9/materibindo9/videomateribindo9">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk/videomaterimtk">
           <a href="video-materi.html"
           ><i className="fas fa-video"></i><span>Video Materi</span>
           </a>
           </Link>
         </li>
         <li className="text-decoration-materi">
-          <Link to="/home/wemateri/materismp/mapelkelas9/materibindo9/rangkumanbindo9">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk/rangkumanmtk">
           <a href="rangkuman-materi-bindo.html"
             ><i className="fas fa-file-word"></i><span>Rangkuman Materi</span>
          </a>
          </Link>
         </li>
         <li className="text-decoration-materi">
-          <Link to="/home/wemateri/materismp/mapelkelas9/materibindo9/quizbindo9">
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk/quizmtk">
           <a href=""
             ><i className="fas fa-comment-dots"></i><span>Quiz Cepat</span>
           </a>
@@ -75,4 +75,4 @@ function MateriBIndo9() {
   )
 }
 
-export default MateriBIndo9
+export default MateriMtk

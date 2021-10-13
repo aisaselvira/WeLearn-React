@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import Question2 from "../detail-pages-again-3/Question2";
 import { QuizContext } from "../contexts/quiz";
+import "../css/style-tryout.css";
 
 const Quiz = () => {
   const [quizState, dispatch] = useContext(QuizContext);
 
   return (
+    <div className="TryOut">
     <div className="quiz">
       {quizState.showResults && (
         <div className="results">
@@ -28,7 +30,7 @@ const Quiz = () => {
       {!quizState.showResults && (
         <div>
           <div className="score">
-            Question2 {quizState.currentQuestion2Index + 1}/
+            Question {quizState.currentQuestion2Index + 1}/
             {quizState.questions.length}
           </div>
           <Question2 />
@@ -42,7 +44,8 @@ const Quiz = () => {
           )}
         </div>
       )}
-    </div>
+      </div>
+      </div>
   );
 };
 

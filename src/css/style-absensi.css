@@ -8,13 +8,12 @@
 }
 #absen {
     background-color: #b2b7ff;
-    border-radius: 8%;
+    border-radius: 10px;
     box-shadow: 1px 2px 8px #B4CDF1;
     margin: 0rem auto 2.1rem auto;
     width: 700px;
-    height: 600px;
+    height: 790px;
     float: right;
-    border-radius: 8%;
 }
 .background-absensi{
     background-image: url("../img/ini-waves.svg");
@@ -66,13 +65,15 @@ input{
     padding-left: 15px;
     border-radius: 10px;
 }
+.button-submit-absensi{
+    padding-top: 20px;
+}
 .submit-absensi {
-    background: -webkit-radial-gradient(right, #B4CDF1, rgb(253, 254, 255));
+    background-color: rgb(22, 24, 41);
     border: none;
     border-radius: 21px;
-    box-shadow: 0px 1px 8px #B4CDF1;
     cursor: pointer;
-    color: black;
+    color: white;
     height: 42px;
     margin: 0 auto;
     margin-top: 10px;
@@ -98,10 +99,9 @@ input{
     height: 400px;
     float: left;
     background: whitesmoke;
-    border-radius: 8%;
+    border-radius: 10px;
     box-shadow: 1px 2px 8px black;
     background-color: #cbd3ff;
-    border-radius: 8%;
 }
 
 #foto-absensi img{
@@ -132,7 +132,7 @@ input{
     padding-right: 31rem;
 }
 .label-absensi{
-    padding: 10px;
+    padding: 20px;
 }
 .select-absensi{
     border-radius: 10px;

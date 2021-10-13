@@ -90,8 +90,8 @@
 }  
 .judul-mapel{
     text-align: center;
-    font-size: 30px;
-    color: rgb(63, 46, 46);
+    font-size: 27px;
+    color: rgb(55, 55, 55);
 }
 .about-mapel{
     text-align: center;
@@ -107,15 +107,15 @@
         float: left;
         text-align: center;
         margin-bottom: 20px;
-        padding-top: 50px;       
+        padding-top: 50px;
 }
 .col-4-mapel img{
         padding: 70px;
         margin: 20px;
         height: 329px;
         width: 302px;
-        background:#EEDEFF;
-        border-radius: 50px;
+        background-color:#EEDEFF;
+        border-radius: 40px;
         box-sizing: border-box;
         transition: 0.5s;
 }

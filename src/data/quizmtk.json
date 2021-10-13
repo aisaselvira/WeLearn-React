@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "question": "Terdapat persegi dengan panjang sisi (3x - 2)cm Luas persegi tersebut adalah cm2 ",
+      "choices": ["(9x2 - 12x - 4)", "(9x2 - 4)", "(9x2 + 4)",  "(9x2 - 12x + 4)"],
+      "answer": "(9x2 - 12x + 4)"
+    },
+    {
+      "question": "Sebuah persegi panjang mempunyai panjang (2x - 1)m dan lebar (x + 3)m Luas persegi panjang tersebut adalah .. m2.",
+      "choices": ["(2x2 - 3)", "(2x2 + 5x + 3)", "(2x2 - 5x - 3)", "(2x2 + 5x - 3)"],
+      "answer": "(2x2 + 5x - 3)"
+    },
+    {
+      "question":"Pada tahun ini, umur seorang adik 5 tahun kurangnya dari umur kakak. Lima tahun kemudian, jumlah umur kakak dan adik menjadi 35 tahun. Tentukanlah masing-masing umur mereka saat ini.",
+      "choices": ["umur kakak 10 tahun, umur adik 5 tahun", "umur kakak 15 tahun, umur adik 10 tahun", "umur adik 10 tahun, umur kakak 20 tahun", "umur adik 15 tahun, umur kakak 20 tahun"],
+      "answer": "umur kakak 15 tahun, umur adik 10 tahun"
+    },
+    {
+      "question": "Diketahui dua bilangan berselisih 48. Bilangan yang satu sebesar lima kali dari bilangan yang lain. Jika a adalah banyak provinsi di Indonesia saat ini, berapa nilai a ditambah dengan kedua bilangan tersebut",
+      "choices": ["103", "104", "108", "106"],
+      "answer": "106"
+    },
+    {
+      "question": "Umur seorang ibu saat ini sama dengan tiga kali umur anaknya. Selisih umur mereka saat ini adalah 26 tahun. Tentukanlah jumlah umur mereka 5 tahun mendatang.",
+      "choices": ["60 tahun", "62 tahun", "64 tahun","66 tahun"],
+      "answer": "62 tahun"
+    },
+    {
+      "question": "Jumlah dua bilangan adalah 25. Tiga kali bilangan yang lebih kecil dikurangi bilangan yang lebih besar adalah 3. Bilangan berapakah itu",
+      "choices": ["14", "16", "20","18"],
+      "answer": "18"
+    },
+    {
+      "question": "Harga 3 buah buku dan 5 pensil adalah Rp 42.000. Jika harga sebuah buku adalah 3 kali harga sebuah pensil, tentukanlah harga masing-masing pensil dan buku.",
+      "choices": ["Pensil Rp3.000,00, Buku Rp9.000,00", "Pensil Rp2.000,00, Buku Rp7.000,00", "Pensil Rp2.500,00, Buku Rp5.000,00", "Pensil Rp3.500,00, Buku Rp9.000,00"],
+      "answer": "Pensil Rp3.000,00, Buku Rp9.000,00"
+    },
+    {
+      "question": "Jumlah tiga bilangan ganjil positif yang berurutan adalah 21. Tentukanlah tiga bilangan tersebut. ",
+      "choices": ["3, 7, 11", "1, 9, 11", "5, 7, 9", "3, 7, 9"],
+      "answer": "5, 7, 9"
+    },
+    {
+      "question": "Sebuah persegi panjang mempunyai panjang (2x - 1)m dan lebar (x + 3)m Luas persegi panjang tersebut adalah .. m2.",
+      "choices": ["(2x2 - 3)", "(2x2 + 5x + 3)", "(2x2 - 5x - 3)", "(2x2 + 5x - 3)"],
+      "answer": "(2x2 + 5x - 3)"
+    },
+    {
+      "question":"Pada tahun ini, umur seorang adik 5 tahun kurangnya dari umur kakak. Lima tahun kemudian, jumlah umur kakak dan adik menjadi 35 tahun. Tentukanlah masing-masing umur mereka saat ini.",
+      "choices": ["umur kakak 10 tahun, umur adik 5 tahun", "umur kakak 15 tahun, umur adik 10 tahun", "umur adik 10 tahun, umur kakak 20 tahun", "umur adik 15 tahun, umur kakak 20 tahun"],
+      "answer": "umur kakak 15 tahun, umur adik 10 tahun"
+    }
+  ]
+}

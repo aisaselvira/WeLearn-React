@@ -21,7 +21,7 @@ function MapelKelas8() {
         <div className="judul-mapel">
           <center />
           <h1>
-            <b>MATA PELAJARAN KELAS 7</b>
+            <b>MATA PELAJARAN KELAS 8</b>
           </h1>
 
           <div className="col-4-mapel">
@@ -56,6 +56,7 @@ function MapelKelas8() {
               <b>MATEMATIKA</b>
             </span>
 
+          <Link to="/home/wemateri/materismp/mapelkelas7/materimtk">
             <div className="tombol-mapel">
               <a
                 href="beranda-materi-mtk.html"
@@ -64,6 +65,7 @@ function MapelKelas8() {
                 Mulai Belajar
               </a>
             </div>
+          </Link>
           </div>
 
           <div className="col-4-mapel">
@@ -76,11 +78,13 @@ function MapelKelas8() {
               <b>KIMIA</b>
             </span>
 
+          <Link to="/home/wemateri/materismp/mapelkelas7/materikimia">
             <div className="tombol-mapel">
               <a href="https://google.com" className="button-aktif-mapel hijau">
                 Mulai Belajar
               </a>
             </div>
+          </Link>
           </div>
 
           <div className="col-4-mapel">
@@ -93,11 +97,13 @@ function MapelKelas8() {
               <b>FISIKA</b>
             </span>
 
+          <Link to="/home/wemateri/materismp/mapelkelas7/materifisika">
             <div className="tombol-mapel">
               <a href="https://google.com" className="button-aktif-mapel hijau">
                 Mulai Belajar
               </a>
             </div>
+          </Link>
           </div>
         </div>
 

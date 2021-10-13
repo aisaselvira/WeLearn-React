@@ -78,7 +78,8 @@ function Game() {
   }
 
   return (
-    <main>
+    <div className="tictactoe">
+    <main className="Game">
       <Board>
         {squares.map((square,index) =>
           <Square
@@ -98,7 +99,8 @@ function Game() {
         </div>
       )}
 
-    </main>
+      </main>
+      </div>
   );
 }
 
