@@ -76,11 +76,6 @@ color: #fff;
     -webkit-transform: translate(0px,5px);
     background-color:coral;
 }  
-.hijau-wxam{
-    font-family: Poppins, sans-serif;
-    background-color:#FFEA79 ;
-    box-sizing: border-box;
-}
 html{
     scroll-behavior: smooth;
 }

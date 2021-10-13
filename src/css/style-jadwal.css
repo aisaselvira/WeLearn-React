@@ -73,11 +73,6 @@
     border-bottom: 5px solid indianred;
     text-shadow: 0px -2px indianred;
 }
-.hijau{
-    background-color:#FFEA79 ;
-    box-sizing: border-box;
-    border-bottom: 1px solid#000;
-}
 .tombol-aktif-jadwal:active{
     transform: translate(100px,50px);
     -webkit-transform: translate(0px,5px);
