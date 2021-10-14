@@ -7,6 +7,7 @@ import {
 import { QuizProvider } from "./contexts/quiz";
 
 // pages
+import TampilanUtama from "./pages/TampilanUtama";
 import Login from "./pages/Login";
 import Beranda from "./pages/Beranda";
 import Signup from "./pages/Signup";
@@ -102,6 +103,9 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
+          <TampilanUtama />
+        </Route>
+        <Route exact path="/login">
           <Login />
         </Route>
         <Route exact path="/home">
@@ -314,9 +318,9 @@ function App() {
         <Route exact path="/home/wfresh/gamecard">
           <GameCard />
         </Route>
-    <QuizProvider>
-      <Quiz />
-    </QuizProvider>
+        <QuizProvider>
+          <Quiz />
+        </QuizProvider>
       </Switch>
       
     </Router>

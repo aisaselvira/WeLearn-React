@@ -1,0 +1,122 @@
+.bg-utama {
+  background-image: url("../img/vektor-utama.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+.gb-utama{
+      padding-right: 4rem;
+      padding-top: 2rem;
+}
+.img-utama{
+      width: 450px;
+      height: 450px;
+      float: right;
+}
+.text-beranda-utama{
+      padding-top: 5rem;
+      text-align: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.beranda-h1{
+      font-size: 40px;
+      color: white;
+      text-align: left;
+}
+.beranda-h2{
+      font-size: 20px;
+      text-align: left;
+      padding-left: 11rem;
+      color: white;
+}
+.img-logo-utama{
+      width: 180px;
+      padding-top: 1%;
+      padding-left: 4rem;
+}
+.beranda-h2{
+      text-align: center;
+}
+.text-beranda-utama2{
+      text-align: center;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+}
+#button-login1{
+    padding-top: 3rem;
+    padding-left: 12rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    float: left;
+}
+#submit-login1{
+    background: rgb(162, 129, 255);
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}
+#submit-login1 a{
+    color: white;
+    font-size: 16px;
+}
+#submit-login1:hover{
+    background: rgb(209, 130, 255);
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}
+
+#button-signup1{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    float: left;
+}
+#submit-signup1{
+    background-color: rgb(234, 228, 255);
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #2c2c54;
+    cursor: pointer;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}
+#submit-signup1 a{
+    color: black;
+    font-size: 16px;
+}
+#submit-signup1:hover{
+    background: rgb(209, 130, 255);
+    border-radius: 21px;
+    border: none;
+    cursor: pointer;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25px;
+    width: 153px;
+}

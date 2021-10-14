@@ -32,7 +32,7 @@ function Signup() {
                               </div>
                         </form>
 
-                        <Link to="/signup/login">
+                        <Link to="/Login">
                         <div className="button-login-signup">
                               <button type="submit" className="submit-signup"><a href="login.html">SIGN UP</a></button>
                         </div>
