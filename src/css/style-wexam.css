@@ -70,18 +70,13 @@ color: #fff;
     font-size: 15px;
     color : rgb(63, 46, 46);
     text-decoration: none;
+    background-color: blanchedalmond;
 }
 .button-aktif-wxam:active{
     transform: translate(50px,50px);
     -webkit-transform: translate(0px,5px);
     background-color:coral;
 }  
-.hijau-wxam{
-    font-family: Poppins, sans-serif;
-    background-color:#FFEA79 ;
-    opacity: 80%;
-    box-sizing: border-box;
-}
 html{
     scroll-behavior: smooth;
 }

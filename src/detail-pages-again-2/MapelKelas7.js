@@ -38,7 +38,7 @@ function MapelKelas7() {
               <div className="tombol-mapel">
                 <a
                   href="beranda-materi-bindo.html"
-                  className="button-aktif-mapel hijau"
+                  className="button-aktif-mapel"
                 >
                   Mulai Belajar
                 </a>
@@ -60,7 +60,7 @@ function MapelKelas7() {
             <div className="tombol-mapel">
               <a
                 href="beranda-materi-mtk.html"
-                className="button-aktif-mapel hijau"
+                className="button-aktif-mapel"
               >
                 Mulai Belajar
               </a>
@@ -80,7 +80,7 @@ function MapelKelas7() {
 
             <Link to="/home/wemateri/materismp/mapelkelas7/materikimia">
             <div className="tombol-mapel">
-              <a href="https://google.com" className="button-aktif-mapel hijau">
+              <a href="https://google.com" className="button-aktif-mapel">
                 Mulai Belajar
               </a>
             </div>
@@ -99,7 +99,7 @@ function MapelKelas7() {
 
           <Link to="/home/wemateri/materismp/mapelkelas7/materifisika">
             <div className="tombol-mapel">
-              <a href="https://google.com" className="button-aktif-mapel hijau">
+              <a href="https://google.com" className="button-aktif-mapel">
                 Mulai Belajar
               </a>
             </div>
