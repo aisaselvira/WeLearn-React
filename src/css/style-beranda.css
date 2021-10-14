@@ -228,7 +228,7 @@ a {
   text-align: center;
 }
 .box-beranda-welearn {
-  background-color: #25266a;
+  background-color:  #121346;
   width: 950px;
   height: 300px;
   padding: 30px;
@@ -296,7 +296,7 @@ a {
   font-size: 18px;
 }
 .box-beranda-welearn2 {
-  background-color: #25266a;
+  background-color: #121346;
   width: 950px;
   height: 300px;
   padding: 30px;
@@ -396,23 +396,21 @@ a {
   width: 500px;
 }
 .text-wsat-beranda .h3-beranda1 {
-  padding-top: 4rem;
+  padding-top: 2rem;
   float: left;
-  color: rgb(52, 52, 67);
+  color: rgb(37, 37, 39);
   font-size: 20px;
-  padding-left: 1rem;
 }
 .text-wsat-beranda .h3-beranda2 {
   float: left;
-  color: rgb(52, 52, 67);
+  color: rgb(37, 37, 39);
   font-size: 20px;
-  padding-left: 1rem;
 }
 .button-wsat-beranda {
   padding-left: 7rem;
 }
 .btn-wsat2-beranda2 {
-  background-color: rgb(63, 38, 97);
+  background-color: rgb(40, 19, 70);
   border-radius: 25px;
   border: none;
   box-shadow: 0px 1px 8px #8484da;
@@ -431,25 +429,22 @@ a {
   background-color: rgb(106, 47, 112);
 }
 .ws-beranda {
-  padding-top: 18px;
-  text-align: center;
-  font-size: 22px;
-  color: white;
-  background-color: rgb(45, 37, 79);
+  text-align: left;
+  font-size: 28px;
+  color: black;
   border-radius: 10px;
-  height: 40px;
 }
 .wsat2-beranda {
-  padding-top: 6rem;
+  padding-top: 3rem;
 }
 #ini-wsat2-beranda {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding: 50px;
   height: 630px;
 }
 #ini-wsat2-beranda .img-beranda2 {
   float: left;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-right: 2rem;
   width: 420px;
 }
@@ -462,24 +457,24 @@ a {
   padding-bottom: 3rem;
 }
 .text-bottom-beranda .h2-beranda-wsat2 {
-  padding-top: 9rem;
-  color: rgb(52, 52, 67);
-  font-size: 20px;
+  padding-top: 8rem;
+  color: black;
+  font-size: 24px;
 }
 .text-bottom-beranda .h3-beranda-wsat2 {
-  color: rgb(52, 52, 67);
-  padding-bottom: 2rem;
+  color: rgb(43, 43, 48);
+  padding-top: 1rem;
   font-size: 18px;
 }
 .button-wsat2-beranda {
   padding-left: 7rem;
 }
 .button-wsat-beranda2{
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 .btn-wsat2-beranda {
   background-color: rgb(63, 38, 97);
-  border-radius: 25px;
+  border-radius: 20px;
   border: none;
   box-shadow: 0px 1px 8px #8484da;
   cursor: pointer;
@@ -491,7 +486,7 @@ a {
 }
 .btn-wsat2-beranda a {
   color: white;
-  font-size: 17px;
+  font-size: 15px;
 }
 .btn-wsat2-beranda:hover {
   background-color: rgb(106, 47, 112);
@@ -505,7 +500,7 @@ a {
   font-size: 22px;
   color: white;
   background-color: rgb(39, 31, 72);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .box-card-beranda {
   padding-top: 2rem;
@@ -678,12 +673,12 @@ a {
   text-align: center;
 }
 .card7-beranda {
-  padding-top: 25rem;
-  background-color: white;
-  height: 900px;
+  padding-top: 29rem;
+  background-color: rgb(15, 16, 60);
+  height: 1250px;
 }
 .card7-beranda .table-beranda {
-    display: flex;
+  display: flex;
   justify-content: center;
   float: right;
 }
@@ -693,41 +688,46 @@ a {
 }
 .h1-card7-beranda {
   text-align: center;
-  color: rgb(46, 45, 45);
+  color:white;
+  padding-bottom: 3rem;
 }
 .box7-beranda {
-  width: 330px;
-  height: 600px;
+  width: 370px;
+  height: 1100px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   float: right;
-  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
 }
 .box9-beranda {
   width: 330px;
-  height: 600px;
+  height: 1100px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   float: right;
-  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.7);
 }
 .box7-beranda img {
   width: 200px;
-  height: 200px;
-  padding: 30px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
   padding-top: 2rem;
 }
 .box8-beranda img {
-  width: 400px;
-  height: 410px;
-  padding: 10px;
-  padding-top: 18rem;
+  width: 350px;
+  height: 350px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
 }
 .box9-beranda img {
   width: 200px;
-  height: 200px;
+  height: 180px;
   padding: 30px;
   padding-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 .button-7-beranda {
   border-radius: 15px;
@@ -759,11 +759,18 @@ a {
   padding-top: 0rem;
   color: rgb(49, 49, 49);
   font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
 }
 .texts7-beranda,
 .texts8-beranda,
 .texts9-beranda {
-  padding-top: 1rem;
   color: rgb(80, 79, 79);
   font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }

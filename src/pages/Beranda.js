@@ -14,7 +14,7 @@ import gif12 from "../img/giff12.gif"
 import gb5 from "../img/gb5.jpg"
 import gb4 from "../img/gb4.jpg"
 import gbbbb from "../img/gbbbb.jpg"
-import gb6 from "../img/gb6.jpg"
+import gb6 from "../img/hmt.png"
 import hm1 from "../img/hm1.jpg"
 import gb from "../img/gb.png"
 import hm3 from "../img/hm3.png"
@@ -134,7 +134,10 @@ function Beranda() {
                                   <img className="c7-beranda" src={hm3} alt="Welearn"/>
                                           <h1 className="text7-beranda">Belajar Menjadi Mudah</h1>
                                           <h2 className="texts7-beranda">Karena tujuan kami adalah sebagai solusi media pembelajaran di masa pandemi jadi WeLearn menghadirkan fitur-fitur yang dapat membantu metode pembelajaran secara daring</h2>
-                                    <img className="c7-beranda" src={gbbbb} alt="Welearn"/>
+                                  <br/>
+                                  <br/>
+                                  <hr/>
+                                  <img className="c7-beranda" src={gbbbb} alt="Welearn"/>
                                           <h1 className="text7-beranda">Mudah Diakses</h1>
                                           <h2 className="texts7-beranda">Semua orang dapat dengan mudah mengakses semua fitur-fitur yang ada di WeLearn sehingga mudah dipahami oleh pengguna</h2>
                               </div>
@@ -150,8 +153,11 @@ function Beranda() {
                         <td>
                               <div className="box9-beranda">
                                   <img className="c9-beranda" src={hm1} alt="Welearn"/>
-                                          <h1 className="text9-beranda">Materi Lengkap dan Ringkas</h1>
+                                          <h1 className="text9-beranda">Materi Yang Ringkas</h1>
                                           <h2 className="texts9-beranda">WeLearn menyediakan fitur materi yang lengkap untuk pembelajaran serta terdapat ringkasan materinya juga sehingga pengguna akan mudah memahaminya</h2>
+                                                                    <br/>
+                                  <br/>
+                                  <hr/>
                                   <img className="c9-beranda" src={gb} alt="Welearn"/>
                                           <h1 className="text9-beranda">Banyak Fitur Menyenangkan</h1>
                                           <h2 className="texts9-beranda">Disini kami banya menyediakan fitur-fitur yang tidak membuat pengguna bosan, seperti terdapat fitur W-Fresh, Quiz, dll.</h2>
@@ -165,9 +171,10 @@ function Beranda() {
       <div className="wsat2-beranda">
         <div id="ini-wsat2-beranda">
           <div className="container-beranda">
-            <h1 className="ws-beranda">Apa sih WSAT itu ?</h1>
+
             <br/>
             <img className="img-beranda2" src={gbb} alt="Welearn"/>
+            <h1 className="ws-beranda">Apa sih <br/>yang dimaksud WSAT itu ?</h1>
             <div className="text-wsat-beranda">
               <h3 className="h3-beranda1">WSAT kepanjangan dari We - Scholastic Assesment Test</h3>
               <h3 className="h3-beranda2">
@@ -189,7 +196,7 @@ function Beranda() {
               </h2>
               <h3 className="h3-beranda-wsat2">
                 Nah maka dari itu disini WeLearn menyediakan latihan Scholastic
-                Assesment Test untuk <br></br> kalian yang punya rencana dan
+                Assesment Test <br></br> untuk kalian yang punya rencana dan
                 mimpi kuliah di luar negeri
               </h3>
             </div>
