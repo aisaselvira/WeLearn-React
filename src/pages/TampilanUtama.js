@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import "../css/style-utama.css";
 // import image
 import utama from "../img/hm5.png"
-import logoutama from "../img/logo-welearn-utama.jpeg"
+import logoutama from "../img/wwlearn.png"
 
 function TampilanUtama() {
   return (
@@ -21,21 +21,18 @@ function TampilanUtama() {
                     </div>
 
             <div className="button-login-signup">
-             <Link to="/Login">
                 <div id="button-login1">
+                  <Link to="/Login">
                   <button type="submit" id="submit-login1">
-                    <a href="login.html">Login</a>
+                    <a href="login.html"><strong>Login</strong></a>
                   </button>
-                </div>
-            </Link>
-            
-            <Link to="/Signup">
-                <div id="button-signup1">
-                  <button type="submit" id="submit-signup1">
-                    <a href="login.html">SignUp</a>
-                  </button>
-                </div>
-            </Link>
+                  </Link>
+                  <Link to="/Signup">
+                        <button type="submit" id="submit-signup1">
+                        <a href="login.html"><strong>Sign Up</strong></a>
+                        </button>
+                  </Link>
+                  </div>
             </div>
               </div>
       </div>
