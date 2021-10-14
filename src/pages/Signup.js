@@ -49,7 +49,7 @@ function Signup() {
                         </form>
 
                         <Link to="/Login">
-                        <div className="button-login-signup">
+                        <div className="button-signup">
                               <button type="submit" className="submit-signup"><a href="login.html">Sign Up</a></button>
                         </div>
                         </Link>

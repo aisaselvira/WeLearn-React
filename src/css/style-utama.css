@@ -101,3 +101,9 @@
     transition: 0.25px;
     width: 153px;
 }
+.button-login-signup{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
