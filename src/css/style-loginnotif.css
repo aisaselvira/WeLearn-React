@@ -1,0 +1,42 @@
+.Loginnotif{
+      background-color: rgb(39, 26, 58);
+      padding: 6%;
+}
+.h1-ceklis-login{
+      text-align: center;
+      font-size: 25px;
+      color:white;
+}
+.h2-ceklis-login{
+      text-align: center;
+      font-size: 20px;
+      color:white;
+      padding-top: 10px;
+}
+.ceklis-login{
+      display: flex;
+      justify-content: center;
+      padding-top: 3rem;
+      width: 500px;
+      height: 350px;
+}
+.button-ceklist-login{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border: none;
+      background-color: rgb(202, 214, 255);
+      width: 300px;
+      height: 40px;
+      font-size: 16px;
+      border-radius: 10px;
+}
+.button-ceklist-login:hover{
+      background-color: rgb(20, 30, 72);
+      color: white;
+}
+.button-absensi-ceklist-login{
+      padding-top: 2rem;
+      display: flex;
+      justify-self: center;
+}

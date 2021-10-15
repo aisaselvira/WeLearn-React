@@ -17,7 +17,7 @@ function TampilanUtama() {
                           <h1 className="beranda-h1">Welcome To <br/>WeLearn</h1>
                     </div>
                     <div className="text-beranda-utama2">
-                           <h2 className="beranda-h2">Make a Dreams Come True With WeLearn <br/> Let's Use Education Website Platform now</h2>
+                           <h2 className="beranda-h2">Make a Dreams Come True With WeLearn <br/> Let's Use Education Website Platform Now</h2>
                     </div>
 
             <div className="button-login-signup">

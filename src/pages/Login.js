@@ -50,7 +50,7 @@ function Login() {
                 />
               </label>
 
-              <Link to="/home">
+              <Link to="/login/loginnotif">
                 <div id="button-login">
                   <button type="submit" id="submit-login" onClick={handleclicklogin}>
                     <a href="login.html">Login</a>

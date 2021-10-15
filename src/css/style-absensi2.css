@@ -1,0 +1,42 @@
+.Absensi2{
+      background-color: rgb(26, 26, 58);
+      padding: 8%;
+}
+.h1-ceklis{
+      text-align: center;
+      font-size: 25px;
+      color:white;
+}
+.h2-ceklis{
+      text-align: center;
+      font-size: 20px;
+      color:white;
+      padding-top: 10px;
+}
+.ceklis{
+      display: flex;
+      justify-content: center;
+      padding-top: 5rem;
+      width: 220px;
+      height: 220px;
+}
+.button-ceklist{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border: none;
+      background-color: rgb(202, 255, 230);
+      width: 300px;
+      height: 40px;
+      font-size: 16px;
+      border-radius: 10px;
+}
+.button-ceklist:hover{
+      background-color: rgb(20, 72, 54);
+      color: white;
+}
+.button-absensi-ceklist{
+      padding-top: 6rem;
+      display: flex;
+      justify-self: center;
+}

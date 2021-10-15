@@ -81,7 +81,7 @@ input{
     width: 150px;
 }
 .submit-absensi:hover {
-    background: -webkit-radial-gradient(right, #fdc6ff, rgb(199, 151, 185));
+    background: rgb(211, 121, 211);
     border: none;
     border-radius: 21px;
     box-shadow: 0px 1px 8px #c6b4f1;

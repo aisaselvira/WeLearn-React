@@ -20,6 +20,7 @@ import Jadwal from "./detail-pages/Jadwal";
 import Absensi from "./detail-pages/Absensi";
 import UjianHariIni from "./detail-pages/UjianHariIni";
 import WFresh from "./detail-pages/WFresh";
+import Loginnotif from "./detail-pages/Loginnotif";
 
 // pages detail again
 import MateriSmp from "./detail-pages-again/MateriSmp";
@@ -29,6 +30,7 @@ import WeExam from "./detail-pages-again/WeExam";
 import Ujian from "./detail-pages-again/Ujian";
 import Game from "./detail-pages-again/Game";
 import GameCard from "./detail-pages-again/GameCard";
+import Absensi2 from "./detail-pages-again/Absensi2";
 
 
 //pages detail again2
@@ -107,6 +109,9 @@ function App() {
         </Route>
         <Route exact path="/login">
           <Login />
+        </Route>
+        <Route exact path="/login/loginnotif">
+          <Loginnotif />
         </Route>
         <Route exact path="/home">
           <Beranda />
@@ -302,6 +307,9 @@ function App() {
         </Route>
         <Route exact path="/home/absensi">
           <Absensi />
+        </Route>
+        <Route exact path="/home/absensi/absensi2">
+          <Absensi2 />
         </Route>
         <Route exact path="/home/ujianhariini">
           <UjianHariIni />

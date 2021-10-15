@@ -15,8 +15,8 @@ function Absensi() {
 
     <div id="absensiii">
             <div id="foto-absensi"> 
-                <center><img className="gb-absensi" src={student} alt="Welearn"/></center>
-                <center><p className="p-absensi">Siswa</p></center>
+                <center><img className="gb-absensi" src={student} alt="Welearn"/></center><br/>
+                <center><p className="p-absensi"><strong>Siswa</strong></p></center>
             </div>
         </div>
 
@@ -66,14 +66,15 @@ function Absensi() {
                         <label className="label-absensi"><input className="input-absensi" type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-Laki</label>
                         <label className="label-absensi"><input className="input-absensi"type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
                         
-                <Link to="/home">
+                <Link to="/home/absensi/absensi2">
                     <div className="button-submit-absensi">
                             <button type="submit" className="submit-absensi"><a href="beranda.html">SUBMIT</a></button>
                     </div>
                 </Link>
         </form>
     </div>
-</div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1F375B" fill-opacity="1" d="M0,32L48,58.7C96,85,192,139,288,181.3C384,224,480,256,576,229.3C672,203,768,117,864,101.3C960,85,1056,139,1152,149.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </div>
 
   )
