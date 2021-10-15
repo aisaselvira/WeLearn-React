@@ -70,11 +70,13 @@ function Beranda() {
               </a>
             </li>
             </Link>
+            <Link to="/home">
             <li className="active-beranda">
               <a href="beranda.html">
                 <strong>Home</strong>
               </a>
             </li>
+            </Link>
           </ul>
         </div>
       </header>

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "../css/style-absensi.css";
 
 import student from "../img/student.png"
@@ -64,9 +65,12 @@ function Absensi() {
                         <label className="label-absensi"><h1 className="h1-absensi5">Jenis Kelamin : </h1></label>
                         <label className="label-absensi"><input className="input-absensi" type="radio" name="jenis_kelamin" value="laki-laki"/>Laki-Laki</label>
                         <label className="label-absensi"><input className="input-absensi"type="radio" name="jenis_kelamin" value="perempuan"/>Perempuan</label>
-                        <div className="button-submit-absensi">
+                        
+                <Link to="/home">
+                    <div className="button-submit-absensi">
                             <button type="submit" className="submit-absensi"><a href="beranda.html">SUBMIT</a></button>
-                        </div>
+                    </div>
+                </Link>
         </form>
     </div>
 </div>
