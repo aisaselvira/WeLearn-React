@@ -90,8 +90,7 @@ export default function MateriPageBindo() {
                 return (
                     <div
                     key={obj.id}
-                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    >
+                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
                         <img 
                         src={process.env.PUBLIC_URL + `/Imgs/img${index + 1}.png`} 
                         />
