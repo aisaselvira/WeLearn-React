@@ -25,7 +25,7 @@ function Login() {
             <form method="post" className="form-login">
               <label className="label-login">
                 {" "}
-                <h2 className="form-login-username">Username</h2>
+                <h2 className="form-login-username">Username</h2><br/>
                 <input
                   id="user-email"
                   className="form-content-login"
@@ -38,7 +38,7 @@ function Login() {
               </label>
 
               <label className="label-login">
-                <h2 className="form-login-username">Password</h2>
+                <h2 className="form-login-username">Password</h2><br/>
                 <input
                   id="user-password"
                   className="form-content-login"

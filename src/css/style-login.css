@@ -32,7 +32,7 @@ body{
     padding-top: 20px;
 }
 .box-login2{
-    background-color: #D8D8D8;
+    background-color: #f7f7f7;
     width: 600px;
     height: 500px;
     border-radius: 8px;
@@ -141,7 +141,7 @@ body{
     background: -webkit-linear-gradient(right,#d1ccc0,#d1ccc0);
 }
 .form-content-login{
-    background-color: #bf99ff;
+    background-color: #e1e1e1;
     border: none;
     outline: none;
     width: 440px;

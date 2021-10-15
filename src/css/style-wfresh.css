@@ -36,7 +36,7 @@ body {
   float: left;
   width: 500px;
   text-align: center;
-  background-color: rgb(128, 83, 127);
+  background-color: rgb(46, 30, 58);
   border-radius: 10px;
 }
 
@@ -44,7 +44,7 @@ body {
   float: right;
   text-align: center;
   width: 650px;
-  background-color: rgb(128, 83, 127);
+  background-color: rgb(46, 30, 58);
   border-radius: 10px;
 }
 
@@ -121,7 +121,7 @@ body {
   padding-bottom: 3rem;
   display: flex;
   justify-content: center;
-  background-color: rgb(245, 203, 255);
+  background-color: rgb(237, 215, 255);
 }
 .nya-wfresh {
   text-align: center;
@@ -129,7 +129,7 @@ body {
 .semuaaa-wfresh {
   width: 100%;
   justify-content: space-around;
-  background-color: rgb(245, 203, 255);
+  background-color:rgb(237, 215, 255);
   padding-top: 48rem;
 }
 
