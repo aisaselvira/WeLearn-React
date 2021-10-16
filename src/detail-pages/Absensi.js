@@ -38,24 +38,12 @@ function Absensi() {
             <label className="label-absensi" for="kelas">&nbsp;<h1 className="h1-absensi2">Kelas Siswa :</h1></label>
                 <select className="select-absensi">
                     <option value="Pilih Jurusan" selected="selected">Pilih Kelas :</option>
+                    <option value="VII">VII</option>
+                    <option value="VIII">VIII</option>
+                    <option value="IX">IX</option>
                     <option value="X">X</option>
                     <option value="XI">XI</option>
                     <option value="XII">XII</option>
-                </select>
-                            
-            <label className="label-absensi" for="jurusan">&nbsp;<h1 className="h1-absensi3">Program Keahlian : </h1></label>
-                <select className="select-absensi">
-                    <option value="Program Keahlian" selected="selected">Program Keahlian</option>
-                    <option value="Teknik Bisnis Konstruksi dan Properti">Teknik Bisnis Konstruksi dan Properti</option>
-                    <option value="Teknik Desain Pemodelan dan Informasi Bangunan">Teknik Desain Pemodelan dan Informasi Bangunan</option>
-                    <option value="Teknik Geomatika">Teknik Geomatika</option>
-                    <option value="Teknik Instalasi Tenaga Listrik">Teknik Instalasi Tenaga Listrik</option>
-                    <option value="Teknik Audio Video">Teknik Audio Video</option>
-                    <option value="Teknik Pemesinan">Teknik Pemesinan</option>
-                    <option value="Teknik Fabrikasi dan Manufaktur">Teknik Fabrikasi dan Manufaktur</option>
-                    <option value="Teknik Kendaraan Ringan Otomotif">Teknik Kendaraan Ringan Otomotif</option>
-                    <option value="Teknik Komputer dan Jaringan">Teknik Komputer dan Jaringan</option>
-                    <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
                 </select>
                             
 
