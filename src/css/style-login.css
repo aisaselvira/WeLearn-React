@@ -151,3 +151,20 @@ body{
 .label-login{
     padding: 10px;
 }
+
+@media screen and (min-width: 350px) and (max-width: 800px){
+.background-login{
+    width: 100%;
+}
+.box-login2{
+    width: 80%;
+}
+.form-content-login{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+#card-title-login{
+    width: 100%;
+}
+}

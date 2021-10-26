@@ -9,7 +9,7 @@ import quizData from '../data/quizmtk.json';
 
 let interval;
 
-const QuizMtk = () => {
+const QuizKimia = () => {
   const [step, setStep] = useState(1);
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
@@ -67,4 +67,4 @@ const QuizMtk = () => {
   );
 }
 
-export default QuizMtk;
+export default QuizKimia;

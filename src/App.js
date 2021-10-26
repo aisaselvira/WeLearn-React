@@ -141,7 +141,7 @@ function App() {
           <MateriPageBindo />
         </Route>
         <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/videomateribindo">
-          <VideoMateriBindo />
+          <VideoMateriBindo />````
         </Route>
         <Route exact path="/home/wemateri/materismp/mapelkelas7/materibindo7/rangkumanbindo">
           <RangkumanBindo />

@@ -774,3 +774,6 @@ a {
   justify-content: center;
   padding: 20px;
 }
+@media (min-width: 300px)(max-width: 800px){
+width: ;
+}

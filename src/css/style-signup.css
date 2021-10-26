@@ -110,3 +110,23 @@ a {
 .labels-signup{
     padding: 15px;
 }
+@media screen and (min-width: 350px) and (max-width: 800px){
+.signuppage img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: center;
+}
+#card-signup{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ceklis-login{
+    width: 400px;
+}
+.img-beranda{
+    width: 60%;
+    height: 200px;
+}
+}
